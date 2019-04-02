@@ -1,0 +1,36 @@
+language: node_js
+node_js: stable
+
+branches:
+  only:
+  - hexo-source
+
+cache:
+  directories:
+  - node_modules
+
+before_install:
+  - export TZ='Asia/Shanghai'
+
+install:
+  - npm install -g hexo-cli
+  - npm install
+
+script:
+  - hexo clean
+  - hexo douban
+  - hexo generate
+
+after_success:
+  - git config --global user.name "dldylan"
+  - git config --global user.email "zjpjzdl@qq.com"
+  - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" ./_config.yml
+  - cat ./_config.yml
+  - hexo deploy -m "Travis CI Build ${TRAVIS_BUILD_NUMBER}"
+
+notifications:
+  email:
+    recipients:
+      - zjpjzdl@qq.com
+    on_success: always # default: change
+    on_failure: always # default: always
