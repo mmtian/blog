@@ -13,7 +13,5 @@
     {% include 'gitment.swig' %}
   {% elif theme.gitalk.enable %}
     {% include 'gitalk.swig' %}
-  {% elif theme.disqusjs.enable and theme.disqusjs.apikey and theme.disqusjs.shortname %}
-    {% include 'disqusjs.swig' %}
   {% endif %}
 {% endif %}

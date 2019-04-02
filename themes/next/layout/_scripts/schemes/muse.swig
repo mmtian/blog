@@ -1,6 +1,6 @@
 {%
   set scripts = [
-    'schemes/muse.js'
+    'src/schemes/muse.js'
   ]
 %}
 

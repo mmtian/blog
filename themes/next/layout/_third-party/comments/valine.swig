@@ -26,7 +26,6 @@
     avatar: '{{ theme.valine.avatar }}',
     meta: guest,
     pageSize: '{{ theme.valine.pageSize }}' || 10,
-    visitor: {{ theme.valine.visitor }},
-    lang: '{{ theme.valine.language }}' || 'zh-cn'
+    visitor: {{ theme.valine.visitor }}
   });
 </script>

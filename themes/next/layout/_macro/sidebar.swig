@@ -32,7 +32,9 @@
                 alt="{{ author }}"/>
             {% endif %}
               <p class="site-author-name" itemprop="name">{{ author }}</p>
-              <div class="site-description motion-element" itemprop="description">{{ description }}</div>
+              <p class="site-description motion-element" itemprop="description">{#
+              #}{{ description }}{#
+            #}</p>
           </div>
 
           {% if theme.site_state %}
@@ -54,13 +56,7 @@
                 {% set categoriesPageQuery = site.pages.find({type: 'categories'}, {lean: true}) %}
                 {% set hasCategoriesPage = categoriesPageQuery.length > 0 %}
                 <div class="site-state-item site-state-categories">
-                  {% if hasCategoriesPage %}
-                    {% if theme.menu.categories %}
-                      <a href="{{ url_for(theme.menu.categories).split('||')[0] | trim }}">
-                    {% else %}
-                      <a href="{{ url_for(config.category_dir) + '/' }}">
-                    {% endif %}
-                  {% endif %}
+                  {% if hasCategoriesPage %}<a href="{{ url_for(categoriesPageQuery[0].path) }}">{% endif %}
                     {% set visibleCategories = 0 %}
                     {% for cat in site.categories %}
                       {% if cat.length %}{% set visibleCategories += 1 %}{% endif %}
@@ -75,13 +71,7 @@
                 {% set tagsPageQuery = site.pages.find({type: 'tags'}, {lean: true}) %}
                 {% set hasTagsPage = tagsPageQuery.length > 0 %}
                 <div class="site-state-item site-state-tags">
-                  {% if hasTagsPage %}
-                    {% if theme.menu.tags %}
-                      <a href="{{ url_for(theme.menu.tags).split('||')[0] | trim }}">
-                    {% else %}
-                      <a href="{{ url_for(config.tag_dir) + '/' }}">
-                    {% endif %}
-                  {% endif %}
+                  {% if hasTagsPage %}<a href="{{ url_for(tagsPageQuery[0].path) }}">{% endif %}
                     {% set visibleTags = 0 %}
                     {% for tag in site.tags %}
                       {% if tag.length %}{% set visibleTags += 1 %}{% endif %}
@@ -103,20 +93,6 @@
             </div>
           {% endif %}
 
-          {% if theme.chat.enable and theme.chat.service !== '' %}
-            <div class="chat motion-element">
-              {% if theme.chat.service == 'chatra' and theme.chatra.enable %}
-                <a onclick="Chatra('openChat', true)">
-              {% endif %}
-              {% if theme.chat.service == 'tidio' and theme.tidio.enable %}
-                <a onclick="tidioChatApi.open();">
-              {% endif %}
-              {% if theme.chat.icon %}<i class="fa fa-{{ theme.chat.icon }}"></i>{% endif %}
-                  {{ theme.chat.text }}
-                </a>
-            </div>
-          {% endif %}
-
           {% if theme.social %}
             <div class="links-of-author motion-element">
               {% for name, link in theme.social %}
@@ -125,7 +101,7 @@
                   {% if not (theme.social_icons.enable) or (not theme.social_icons.icons_only) %}
                     {% set sidebarText = name %}
                   {% endif %}
-                  {% if theme.social_icons.enable %}
+                  {%  if theme.social_icons.enable %}
                     {% set sidebarIcon = '<i class="fa fa-fw fa-' + link.split('||')[1] | trim | default('globe') + '"></i>' %}
                   {% endif %}
                   {{ next_url(sidebarURL, sidebarIcon + sidebarText, {title: name + ' &rarr; ' + sidebarURL}) }}
@@ -197,10 +173,10 @@
       <!--/noindex-->
       {% endif %}
 
-      {% if theme.back2top.enable and theme.back2top.sidebar %}
+      {% if theme.sidebar.b2t %}
         <div class="back-to-top">
           <i class="fa fa-arrow-up"></i>
-          {% if theme.back2top.scrollpercent %}
+          {% if theme.sidebar.scrollpercent %}
             <span id="scrollpercent"><span>0</span>%</span>
           {% endif %}
         </div>
