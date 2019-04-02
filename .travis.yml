@@ -1,39 +1,32 @@
 language: node_js
 node_js: stable
-
-branches:
+branchs:
   only:
   - hexo-source
-
-sudo: true
-
 cache:
   directories:
   - node_modules
-
 before_install:
-  - export TZ='Asia/Shanghai'
-
+  - npm install -g hexo-cli
 install:
   - sudo apt-get update
-  - sudo apt-get install -y package
-  - npm install -g hexo-cli
+  - sudo apt-get install -y graphicsmagick
   - npm install
-
 script:
   - hexo clean
-  - hexo generate
-
-after_success:
+  - hexo g --debug
+after_script:
+  - git clone -b master https://github.com/dldylan/test.git .deploy_git
+  - cd .deploy_git
+  - git checkout master
+  - cd ../
+  - mv .deploy_git/.git/ ./public/
+  - cd ./public
   - git config --global user.name "dldylan"
   - git config --global user.email "zjpjzdl@qq.com"
-  - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" ./_config.yml
-  - cat ./_config.yml
-  - hexo deploy -m "Travis CI Build ${TRAVIS_BUILD_NUMBER}"
-
-notifications:
-  email:
-    recipients:
-      - zjpjzdl@qq.com
-    on_success: never # default: change
-    on_failure: never # default: always
+  - git add .
+  - git commit -m "Travis CI Auto Builder"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+env:
+  global:
+  - GH_REF: https://github.com/dldylan/test.git

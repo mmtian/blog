@@ -78,6 +78,5 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://GH_TOKEN@github.com/dldylan/test.git
-  branch: master
+  type: 
+  repo: 
