@@ -5,6 +5,8 @@ branches:
   only:
   - hexo-source
 
+sudo: true
+
 cache:
   directories:
   - node_modules
