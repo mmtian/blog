@@ -13,12 +13,13 @@ before_install:
   - export TZ='Asia/Shanghai'
 
 install:
+  - sudo apt-get update
+  - sudo apt-get install -y package
   - npm install -g hexo-cli
   - npm install
 
 script:
   - hexo clean
-  - hexo douban
   - hexo generate
 
 after_success:
@@ -32,5 +33,5 @@ notifications:
   email:
     recipients:
       - zjpjzdl@qq.com
-    on_success: always # default: change
-    on_failure: always # default: always
+    on_success: never # default: change
+    on_failure: never # default: always
