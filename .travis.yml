@@ -29,4 +29,11 @@ after_script:
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 env:
   global:
-  - GH_REF: https://github.com/dldylan/test.git
+  - GH_REF: github.com/dldylan/test.git
+
+  notifications:
+  email:
+    recipients:
+      - zjpjzdl@qq.com
+    on_success: never # default: change
+    on_failure: never # default: always
