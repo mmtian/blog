@@ -66,6 +66,18 @@
         {% endif %}
 
         <div class="post-meta">
+
+          {# Pin post top index #}
+          {% if post.top %}
+            <span class="post-meta-item-icon">
+              <i class="fa fa-thumb-tack"></i>
+            </span>
+            <span class="post-meta-item-text">
+              <font color=#649ab6><b>置顶</b></font>
+            </span>
+            <span class="post-meta-divider">|</span>
+          {% endif %}
+
           <span class="post-time">
 
             {% set date_diff = date(post.date) != date(post.updated) %}
@@ -187,6 +199,17 @@
                   <span class="post-comments-count valine-comment-count" data-xid="{{ url_for(post.path) }}" itemprop="commentCount"></span>
                 </a>
               </span>
+              {#点击邮件中的链接跳转至相应评论#}
+              <script>
+                if(window.location.hash){
+                  var checkExist = setInterval(function() {
+                    if ($(window.location.hash).length) {
+                      $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+                      clearInterval(checkExist);
+                    }
+                  }, 100);
+                }
+              </script>
             {% endif %}
           {% endif %}
 
@@ -347,7 +370,7 @@
     {% else %}
       {% set reward_able = page.reward %}
     {% endif %}
-    {% if reward_able and not is_index %}
+    {% if reward_able and not is_index and not post.no_reward %}
       <div>
         {% include '../_partials/post/reward.swig' %}
       </div>
@@ -363,7 +386,7 @@
       {% if post.tags and post.tags.length and not is_index %}
         <div class="post-tags">
           {% for tag in post.tags %}
-            <a href="{{ url_for(tag.path) }}" rel="tag"># {{ tag.name }}</a>
+            <a href="{{ url_for(tag.path) }}" rel="tag"><i class="fa fa-fw fa-tag"></i> {{ tag.name }}</a>
           {% endfor %}
         </div>
       {% endif %}
@@ -427,9 +450,9 @@
       {% if not is_index and (post.prev or post.next) %}
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
-            {% if post.next %}
-              <a href="{{ url_for(post.next.path) }}" rel="next" title="{{ post.next.title }}">
-                <i class="fa fa-chevron-left"></i> {{ post.next.title }}
+            {% if post.prev %}
+              <a href="{{ url_for(post.prev.path) }}" rel="prev" title="{{ post.prev.title }}">
+                <i class="fa fa-chevron-left"></i> {{ post.prev.title }}
               </a>
             {% endif %}
           </div>
@@ -437,9 +460,9 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            {% if post.prev %}
-              <a href="{{ url_for(post.prev.path) }}" rel="prev" title="{{ post.prev.title }}">
-                {{ post.prev.title }} <i class="fa fa-chevron-right"></i>
+            {% if post.next %}
+              <a href="{{ url_for(post.next.path) }}" rel="next" title="{{ post.next.title }}">
+                {{ post.next.title }} <i class="fa fa-chevron-right"></i>
               </a>
             {% endif %}
           </div>
