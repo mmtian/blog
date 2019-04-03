@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: dldylan/blog
+  name: git-gateway
   branch: master # Branch to update (master by default)
 
 # display_url: 
