@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+Disallow: /img/
+Disallow: /images/
+
+Sitemap: http://blog.dongleizhang.com/sitemap.xml
+Sitemap: http://blog.dongleizhang.com/baidusitemap.xml

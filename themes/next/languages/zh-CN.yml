@@ -1,19 +1,21 @@
 ---
 title:
-  archive: 归档
+  archive: 文章归档
   category: 分类
   tag: 标签
   schedule: 日程表
 menu:
   home: 首页
-  archives: 归档
+  archives: 文章归档
   categories: 分类
   tags: 标签
-  about: 关于
+  about: 关于班班
   search: 搜索
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益 404
+  photos: 光影留痕
+  books: 阅读记录
 sidebar:
   overview: 站点概览
   toc: 文章目录
@@ -52,11 +54,11 @@ counter:
   tag_cloud:
     zero: 暂无标签
     one: 目前共计 1 个标签
-    other: "目前共计 %d 个标签"
+    other: '<i class="fa fa-fw fa-tags"></i> 目前共计 %d 个标签'
   categories:
     zero: 暂无分类
     one: 目前共计 1 个分类
-    other: "目前共计 %d 个分类"
+    other: '<i class="fa fa-fw fa-th"></i> 目前共计 %d 个分类'
   archive_posts:
     zero: 暂无日志。
     one: 目前共计 1 篇日志。
@@ -81,9 +83,9 @@ symbol:
   period: "。"
   colon: "："
 reward:
-  donate: 打赏
-  wechatpay: 微信支付
-  alipay: 支付宝
+  donate: <i class="fa fa-qrcode fa-2x" style="line-height:35px;"></i>
+  wechatpay: 微信赞赏
+  alipay: 微信公众号
   bitcoin: 比特币
 gitmentbutton: 显示 Gitment 评论
 accessibility:
