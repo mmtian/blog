@@ -8,10 +8,10 @@ tags:
 abbrlink: ceda0f99
 date: 2017-02-21 18:30:00
 top:
-mathjax:
-comments:
-no_toc:
-no_reward: true
+toc: false
+mathjax: false 
+comments: true
+reward: true
 ---
 ### Papers and Journals
 - [EconPaper](http://econpapers.repec.org/)

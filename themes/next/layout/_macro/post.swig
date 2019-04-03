@@ -370,7 +370,7 @@
     {% else %}
       {% set reward_able = page.reward %}
     {% endif %}
-    {% if reward_able and not is_index and not post.no_reward %}
+    {% if reward_able and not is_index %}
       <div>
         {% include '../_partials/post/reward.swig' %}
       </div>

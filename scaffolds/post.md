@@ -7,10 +7,10 @@ tags:
 abbrlink:
 date: {{ date }}
 top:
-mathjax:
-comments:
-no_toc:
-no_reward:
+mathjax: false
+comments: true
+no_toc: true
+reward: true
 ---
 
 <!-- more -->

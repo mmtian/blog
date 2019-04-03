@@ -51,8 +51,6 @@
   {### END ARCHIVE BLOCK ###}
   {#########################}
 
-  {% include '_partials/pagination.swig' %}
-
 {% endblock %}
 
 {% block sidebar %}

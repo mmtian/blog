@@ -8,10 +8,10 @@ tags:
 abbrlink: fdbd388d
 date: 2016-12-16 18:31:22
 top:
-mathjax:
-comments:
-no_toc:
-no_reward:
+toc: true
+mathjax: false 
+comments: true
+reward: true
 ---
 {% note success %} This is the essay of CUHK PhD level course *Industrial Organization* {% endnote %}
 

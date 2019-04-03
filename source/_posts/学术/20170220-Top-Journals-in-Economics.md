@@ -8,10 +8,10 @@ tags:
 abbrlink: 40e31eef
 date: 2017-02-20 09:30:00
 top:
-mathjax:
-comments:
-no_toc:
-no_reward: true
+toc: false
+mathjax: false 
+comments: true
+reward: true
 ---
 The rank of this list is based on [SUFE journal list](http://econ.shufe.edu.cn/se/kxyj_con/87/1489).
 

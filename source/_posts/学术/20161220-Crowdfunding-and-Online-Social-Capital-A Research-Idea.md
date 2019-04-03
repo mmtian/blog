@@ -8,10 +8,10 @@ tags:
 abbrlink: 3b22d99a
 date: 2016-12-20 01:35:21
 top:
-mathjax:
-comments:
-no_toc:
-no_reward:
+toc: false
+mathjax: false 
+comments: true
+reward: true
 ---
 ## 1. Background
 
