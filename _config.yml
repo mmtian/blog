@@ -3,19 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: Banban Ramble
+subtitle: 班班的碎碎念
+description: Banban's blog. Banban's ramble.
+keywords: Donglei Zhang, 班班
+author: 班班
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://test.dongleizhang.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
 permalink_defaults:
 
 # Directory
@@ -27,6 +30,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
+  - books/index.html
+  - games/index.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -75,7 +81,50 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
+#Douban Page
+douban:
+  user: 179242800
+  builtin: false
+  book:
+    title: '阅读记录'
+    quote: '希望我们，都成为拥有好奇心与想象力的大人，都是不断发现更大世界的有趣人类。'
+  #movie:
+  #  title: '观影打卡'
+  #  quote: ''
+  game:
+    title: 'Steam 喜加一'
+    quote: '我既然花钱买了游戏，为什么还要花时间玩？'
+  timeout: 30000 #optional
+
+# Generate categories from directory-tree
+# Dependencies: https://github.com/xu-song/hexo-auto-category
+# depth: the max_depth of directory-tree you want to generate, should > 0
+auto_category:
+  enable: true
+  depth: 1
+
+# Sitemap Setting
+# Dependencies: npm install hexo-generator-sitemap --save
+# Dependencies: npm install hexo-generator-baidu-sitemap --save
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# Baidu URL Submit
+baidu_url_submit:
+  count: 2 ## 提交最新的链接数
+  host: blog.dongleizhang.com ## 在百度站长平台中注册的域名
+  token: BAIDU_TOKEN ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  - type: git
+    repo: https://GH_TOKEN@github.com/dldylan/test.git
+    branch: master
+#  - type: git
+#    repo: https://dldylan:CODING_TOKEN@git.dev.tencent.com/dldylan/blog.git
+#    branch: master
+#  - type: baidu_url_submitter
