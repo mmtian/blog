@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://test.dongleizhang.com
+url: http://blog.dongleizhang.com
 root: /
 permalink: posts/:abbrlink/
 abbrlink:
@@ -122,7 +122,7 @@ baidu_url_submit:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repo: https://GH_TOKEN@github.com/dldylan/test.git
+    repo: https://GH_TOKEN@github.com/dldylan/blog.git
     branch: master
 #  - type: git
 #    repo: https://dldylan:CODING_TOKEN@git.dev.tencent.com/dldylan/blog.git
