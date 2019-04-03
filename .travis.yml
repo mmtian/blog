@@ -22,7 +22,7 @@ install:
 script:
   - hexo clean
   - hexo douban
-  - hexo g --debug
+  - hexo g
 
 after_success:
   - git config --global user.name "dldylan"
