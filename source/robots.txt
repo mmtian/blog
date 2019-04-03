@@ -6,5 +6,5 @@ Disallow: /lib/
 Disallow: /img/
 Disallow: /images/
 
-Sitemap: http://blog.dongleizhang.com/sitemap.xml
-Sitemap: http://blog.dongleizhang.com/baidusitemap.xml
+Sitemap: https://blog.dongleizhang.com/sitemap.xml
+Sitemap: https://blog.dongleizhang.com/baidusitemap.xml
