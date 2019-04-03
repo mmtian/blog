@@ -1,5 +1,16 @@
 ---
 title: {{ title }}
-date: {{ date }}
+categories:
+  - 
 tags:
+  - 
+abbrlink:
+date: {{ date }}
+top:
+mathjax:
+comments:
+no_toc:
+no_reward:
 ---
+
+<!-- more -->
