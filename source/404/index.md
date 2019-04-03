@@ -1,6 +1,6 @@
 ---
 title: 404 Not Found
-no_toc: true
+toc: false
 comments: false
 permalink: /404
 ---

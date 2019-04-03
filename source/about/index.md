@@ -2,7 +2,7 @@
 title: 关于班班
 date: 2018-05-29 16:13:32
 type: about
-no_toc: true
+toc: false
 comments: 
 ---
 我是班班，也可以叫我磊磊，目前坐标香港，喜欢看一些 [纪录片](/posts/546f324b/) 和 [美剧](/posts/f90d4bca)，也喜欢瞎折腾一些数码产品。有时候也会 [看看书](/books/)、[玩玩游戏](/games/)，没事胡思乱想碎碎念。

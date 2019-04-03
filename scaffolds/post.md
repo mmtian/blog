@@ -7,9 +7,9 @@ tags:
 abbrlink:
 date: {{ date }}
 top:
+toc: false
 mathjax: false
 comments: true
-no_toc: true
 reward: true
 ---
 
