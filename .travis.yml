@@ -11,12 +11,12 @@ cache:
 
 before_install:
   - export TZ='Asia/Shanghai'
-  - npm install -g hexo-cli
+  - sudo apt-get update
+#  - sudo apt-get upgrade
 
 install:
-  - sudo apt-get update
-  - sudo apt-get install -y graphicsmagick
   - npm update -g npm
+  - npm install -g hexo-cli
   - npm install
 
 script:
