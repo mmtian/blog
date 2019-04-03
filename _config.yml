@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://kkren.me
+url: http://test.dongleizhang.com
 root: /
 permalink: :year/:month/:urlname/
 permalink_defaults:
