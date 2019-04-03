@@ -9,7 +9,7 @@ comments:
 
 博客名 *Banban Ramble*（班班碎碎念），顾名思义记录一些日常生活、科研随笔与文摘，另外也收录了部分我在中学时期的 ~~随笔~~ 黑历史。博客断断续续改了 [好多个版本](/posts/82ef8c2e/)，代码放在 [GitHub](https://github.com/dongleizhang/blog) 上面。如果需要转载博客的文章、照片，请先获得我的同意。
 
-你可以在下方评论区给我留言，也可以通过邮件联系我：dongleidylan#foxmail.com（替换 # 为 @）。
+你可以在下方评论留言，也可以通过邮件联系我：dongleidylan#foxmail.com（替换 # 为 @）。
 
 ### 在这里发现更多
 　<i class="fa fa-fw fa-home"></i>&nbsp;&nbsp;[学术主页](http://dongleizhang.com)

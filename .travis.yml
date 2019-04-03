@@ -20,7 +20,6 @@ install:
 
 script:
   - hexo clean
-  - hexo douban
   - hexo g
 
 after_success:
@@ -28,7 +27,6 @@ after_success:
   - git config --global user.email "zjpjzdl@qq.com"
   - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" ./_config.yml
   - sed -i "s/CODING_TOKEN/${CODING_TOKEN}/g" ./_config.yml
-  - sed -i "s/BAIDU_TOKEN/${BAIDU_TOKEN}/g" ./_config.yml
   - cat ./_config.yml
   - hexo deploy -m "Travis CI Build ${TRAVIS_BUILD_NUMBER}"
 
@@ -36,5 +34,5 @@ notifications:
 email:
   recipients:
     - zjpjzdl@qq.com
-  on_success: always # default: change
+  on_success: change # default: change
   on_failure: always # default: always

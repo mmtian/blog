@@ -7,7 +7,7 @@
       <i class="fa fa-{{ theme.busuanzi_count.total_visitors_icon }}"></i>
     </span>
     <span class="site-uv" title="{{ __('footer.total_visitors') }}">
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      你是来访的第&nbsp;<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>&nbsp;位小伙伴
     </span>
   {% endif %}
 
