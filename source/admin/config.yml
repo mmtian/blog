@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: dldylan/blog
-  branch: master # Branch to update (master by default)
+  branch: hexo-source # Branch to update (master by default)
 
 # display_url: 
 media_folder: "img" # Folder where user uploaded files should go
@@ -11,36 +11,75 @@ media_folder: "img" # Folder where user uploaded files should go
 # publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "/_posts" # The path to the folder where the documents are stored
+  - name: "博客布置" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "博客布置" # Used in the UI, ie.: "New Post"
+    folder: "/source/_posts/博客布置/" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection, options: ["博客布置", "学术", "札记", "碎碎念"]
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "分类", name: "categories", widget: "string", default: "博客布置"}
+      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
+      - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
+      - {label: "置顶", name: "top", widget: "boolean", default: false}
+      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
+      - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
+      - {label: "评论", name: "comments", widget: "boolean", default: true}
+      - {label: "赞赏", name: "reward", widget: "boolean", default: true}
+      - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
+  - name: "学术" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "学术" # Used in the UI, ie.: "New Post"
+    folder: "/source/_posts/学术/" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Categories", name: "categories", widget: "string", tagname: "h1"}
-      - {label: "Tags", name: "tags", widget: "string", required: true}
-      - {label: "Permalink", name: "abbrlink", widget: "string", default: "", required: true}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-      - {label: "Pin Top", name: "top", widget: "boolean", default: "false"}
-      - {label: "Sidebar", name: "toc", widget: "boolean", default: "false"}
-      - {label: "LaTex", name: "mathjax", widget: "boolean", default: "false"}
-      - {label: "Pin Top", name: "top", widget: "boolean", default: "false"}
-      - {label: "Comment", name: "comments", widget: "boolean", default: true}
-      - {label: "Reward", name: "reward", widget: "boolean", default: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Component", name: "component", widget: "string", default: "<!-- more -->"}
-    meta: # Meta data fields. Just like fields, but without any preview element
-#  - name: "pages"
-#    label: "Pages"
-#   folder: "/pages"
-#    sort: "title:asc"
-#    create: true
-#    slug: "{{slug}}"
-#    fields:
-#      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-#      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-#      - {label: "Sidebar", name: "toc", widget: "boolean", default: "false"}
-#      - {label: "Comment", name: "comments", widget: "boolean", default: true}
-#      - {label: "Component", name: "component", widget: "string", default: ""}
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "分类", name: "categories", widget: "string", default: "学术"}
+      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
+      - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
+      - {label: "置顶", name: "top", widget: "boolean", default: false}
+      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
+      - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
+      - {label: "评论", name: "comments", widget: "boolean", default: true}
+      - {label: "赞赏", name: "reward", widget: "boolean", default: true}
+      - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
+  - name: "札记" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "札记" # Used in the UI, ie.: "New Post"
+    folder: "/source/_posts/札记/" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "分类", name: "categories", widget: "string", default: "札记"}
+      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
+      - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
+      - {label: "置顶", name: "top", widget: "boolean", default: false}
+      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
+      - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
+      - {label: "评论", name: "comments", widget: "boolean", default: true}
+      - {label: "赞赏", name: "reward", widget: "boolean", default: true}
+      - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
+  - name: "碎碎念" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "碎碎念" # Used in the UI, ie.: "New Post"
+    folder: "/source/_posts/碎碎念/" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "分类", name: "categories", widget: "string", default: "碎碎念"}
+      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
+      - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
+      - {label: "置顶", name: "top", widget: "boolean", default: false}
+      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
+      - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
+      - {label: "评论", name: "comments", widget: "boolean", default: true}
+      - {label: "赞赏", name: "reward", widget: "boolean", default: true}
+      - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
