@@ -3,12 +3,13 @@ backend:
   repo: dldylan/blog
   branch: hexo-source # Branch to update (master by default)
 
-media_folder: "/source/assets" # Folder where user uploaded files should go
-public_folder: "/assets"
+media_folder: "source/assets" # Folder path where uploaded files should be saved, relative to the base of the repo.
+public_folder: "/assets" # Folder path where uploaded files will be accessed, relative to the base of the built site.
 
 publish_mode: editorial_workflow
 site_url: https://blog.dongleizhang.com
 display_url: https://blog.dongleizhang.com
+logo_url: https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/img/logo.svg
 show_preview_links: true
 # slug:
 #   encoding: "ascii" # default: unicode
@@ -17,16 +18,15 @@ show_preview_links: true
 
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "博客布置" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "blogbuild" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "博客布置" # Used in the UI, ie.: "New Post"
     folder: "/source/_posts/博客布置" # The path to the folder where the documents are stored
-    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: ["博客布置"]}
-      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
+      - {label: "分类", name: "categories", widget: "list",, default: ["博客布置"]}
+      - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -35,16 +35,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
-  - name: "学术" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "academic" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "学术" # Used in the UI, ie.: "New Post"
     folder: "/source/_posts/学术" # The path to the folder where the documents are stored
-    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: "学术"}
-      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
+      - {label: "分类", name: "categories", widget: "list", default: "学术"}
+      - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -53,16 +52,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
-  - name: "札记" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "notes" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "札记" # Used in the UI, ie.: "New Post"
     folder: "/source/_posts/札记" # The path to the folder where the documents are stored
-    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: "札记"}
-      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
+      - {label: "分类", name: "categories", widget: "list", default: "札记"}
+      - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -71,16 +69,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
-  - name: "碎碎念" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "ramble" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "碎碎念" # Used in the UI, ie.: "New Post"
     folder: "/source/_posts/碎碎念" # The path to the folder where the documents are stored
-    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: "碎碎念"}
-      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
+      - {label: "分类", name: "categories", widget: "list", default: "碎碎念"}
+      - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
