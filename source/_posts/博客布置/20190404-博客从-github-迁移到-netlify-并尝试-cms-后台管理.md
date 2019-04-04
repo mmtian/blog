@@ -2,9 +2,9 @@
 title: 博客从 GitHub 迁移到 Netlify 并尝试 CMS 后台管理
 categories:
   - 博客布置
-  - GitHub
 tags:
   - Hexo
+  - GitHub
 abbrlink: 899a5244
 date: '2019-04-04 11:49:08'
 top: false
