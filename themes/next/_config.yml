@@ -228,9 +228,10 @@ links_title: 博客管理
 #links_layout: block
 links_layout: inline
 links:
-  "<i class='fa fa-fw fa-comments'></i>  评论管理": https://banbanramble.leanapp.cn/
-  "<i class='fa fa-fw fa-cloud'></i>  腾讯云": https://console.cloud.tencent.com/
-  "<i class='fa fa-fw fa-bar-chart'></i>  百度统计": https://tongji.baidu.com/
+  "<i class='fa fa-fw fa-pencil-square-o'></i>  文章": /admin
+  "<i class='fa fa-fw fa-comments'></i>  评论": https://banbanramble.leanapp.cn
+  "<i class='fa fa-fw fa-cloud'></i>  图床": https://console.cloud.tencent.com
+  "<i class='fa fa-fw fa-bar-chart'></i>  统计": https://tongji.baidu.com
 
 # Sidebar Avatar
 avatar:
