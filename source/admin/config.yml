@@ -4,23 +4,23 @@ backend:
   branch: hexo-source # Branch to update (master by default)
 
 # display_url: 
-media_folder: "img" # Folder where user uploaded files should go
+media_folder: "/source/assets/" # Folder where user uploaded files should go
 # slug:
 #   encoding: "ascii"
 #   clean_accents: true
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "博客布置" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "博客布置" # Used in the UI, ie.: "New Post"
     folder: "/source/_posts/博客布置/" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection, options: ["博客布置", "学术", "札记", "碎碎念"]
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "string", default: "博客布置"}
-      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: ["博客布置"]}
+      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -34,11 +34,11 @@ collections: # A list of collections the CMS should be able to edit
     folder: "/source/_posts/学术/" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "string", default: "学术"}
-      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: "学术"}
+      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -52,11 +52,11 @@ collections: # A list of collections the CMS should be able to edit
     folder: "/source/_posts/札记/" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "string", default: "札记"}
-      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: "札记"}
+      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -70,11 +70,11 @@ collections: # A list of collections the CMS should be able to edit
     folder: "/source/_posts/碎碎念/" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "string", default: "碎碎念"}
-      - {label: "标签", name: "tags", widget: "string"}
+      - {label: "分类", name: "categories", widget: "list", allow_add: false, default: "碎碎念"}
+      - {label: "标签", name: "tags", widget: "list", allow_add: true, default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: YYYY-MM-DD HH:mm:ss}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
