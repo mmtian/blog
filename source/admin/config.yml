@@ -3,8 +3,8 @@ backend:
   repo: dldylan/blog
   branch: hexo-source # Branch to update (master by default)
 
-media_folder: "/source/assets/" # Folder where user uploaded files should go
-#public_folder: "/images/uploads"
+media_folder: "/source/assets" # Folder where user uploaded files should go
+public_folder: "/assets"
 
 publish_mode: editorial_workflow
 site_url: https://blog.dongleizhang.com
@@ -19,8 +19,8 @@ show_preview_links: true
 collections: # A list of collections the CMS should be able to edit
   - name: "博客布置" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "博客布置" # Used in the UI, ie.: "New Post"
-    folder: "/source/_posts/博客布置/" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
+    folder: "/source/_posts/博客布置" # The path to the folder where the documents are stored
+    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
@@ -37,8 +37,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
   - name: "学术" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "学术" # Used in the UI, ie.: "New Post"
-    folder: "/source/_posts/学术/" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
+    folder: "/source/_posts/学术" # The path to the folder where the documents are stored
+    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
@@ -55,8 +55,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
   - name: "札记" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "札记" # Used in the UI, ie.: "New Post"
-    folder: "/source/_posts/札记/" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
+    folder: "/source/_posts/札记" # The path to the folder where the documents are stored
+    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
@@ -73,8 +73,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
   - name: "碎碎念" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "碎碎念" # Used in the UI, ie.: "New Post"
-    folder: "/source/_posts/碎碎念/" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
+    folder: "/source/_posts/碎碎念" # The path to the folder where the documents are stored
+    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
