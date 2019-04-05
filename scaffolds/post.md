@@ -5,8 +5,8 @@ categories:
 tags:
   - 
 abbrlink:
-date: {{ date }}
-top:
+date: '{{ date }}'
+top: false
 toc: false
 mathjax: false
 comments: true

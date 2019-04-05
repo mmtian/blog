@@ -6,10 +6,10 @@ tags:
   - 众筹
   - econ
 abbrlink: 3b22d99a
-date: 2016-12-20 01:35:21
-top:
+date: '2016-12-20 01:35:21'
+top: false
 toc: false
-mathjax: false 
+mathjax: false
 comments: true
 reward: true
 ---

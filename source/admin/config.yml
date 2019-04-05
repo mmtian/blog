@@ -6,7 +6,7 @@ backend:
 media_folder: "source/assets" # Folder path where uploaded files should be saved, relative to the base of the repo.
 public_folder: "/assets" # Folder path where uploaded files will be accessed, relative to the base of the built site.
 
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 site_url: https://blog.dongleizhang.com
 display_url: https://blog.dongleizhang.com
 logo_url: https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/img/logo.svg
@@ -90,7 +90,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "页面设置"
     files:
       - name: "about"
-        label: "About"
+        label: "关于班班"
         file: "/source/about/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
@@ -115,18 +115,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "readme_hexo"
-        label: "README(hexo-source)"
+        label: "README (hexo-source)"
         file: "/source/README.md"
         fields:
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "readme_master"
-        label: "README(master)"
+        label: "README (master)"
         file: "/README.md"
         fields:
           - {label: "正文", name: "body", widget: "markdown"}
-      - name: "robots"
-        label: "Robots.txt"
-        file: "/robots.txt"
-        fields:
-          - {label: "正文", name: "body", widget: "text"}
-

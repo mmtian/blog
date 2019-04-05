@@ -6,10 +6,10 @@ tags:
   - econ
   - list
 abbrlink: ceda0f99
-date: 2017-02-21 18:30:00
-top:
+date: '2017-02-21 18:30:00'
+top: false
 toc: false
-mathjax: false 
+mathjax: false
 comments: true
 reward: true
 ---

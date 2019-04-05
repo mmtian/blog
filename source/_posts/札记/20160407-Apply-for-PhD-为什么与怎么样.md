@@ -5,10 +5,10 @@ categories:
 tags:
   - PhD
 abbrlink: ac37e71c
-date: 2016-04-07 22:54:42
-top:
+date: '2016-04-07 22:54:42'
+top: false
 toc: false
-mathjax: false 
+mathjax: false
 comments: true
 reward: true
 ---

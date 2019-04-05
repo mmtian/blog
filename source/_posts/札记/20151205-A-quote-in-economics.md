@@ -6,10 +6,10 @@ tags:
   - econ
   - quote
 abbrlink: a20577b1
-date: 2015-12-05 20:08:00
-top:
+date: '2015-12-05 20:08:00'
+top: false
 toc: false
-mathjax: false 
+mathjax: false
 comments: true
 reward: true
 ---
