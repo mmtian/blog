@@ -85,7 +85,7 @@ theme: next
 #Douban Page
 douban:
   user: 179242800
-  builtin: false
+  builtin: true
   book:
     title: '阅读记录'
     quote: '希望我们，都是不断发现更大世界的有趣人类。</br> Safari 可能无法查看书籍封面，推荐使用 Chrome 查看。'
