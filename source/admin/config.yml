@@ -28,7 +28,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "分类", name: "categories", widget: "list",, default: ["博客布置"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
-      - {label: "发布日期", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD HH:mm:ss"}
+      - {label: "发布日期", name: "date", widget: "datetime", dateFormat: true, timeFormat: true}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
       - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
@@ -42,7 +42,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", default: "学术"}
+      - {label: "分类", name: "categories", widget: "list", default: ["学术"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
@@ -59,7 +59,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", default: "札记"}
+      - {label: "分类", name: "categories", widget: "list", default: ["札记"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
@@ -76,7 +76,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", default: "碎碎念"}
+      - {label: "分类", name: "categories", widget: "list", default: ["碎碎念"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
