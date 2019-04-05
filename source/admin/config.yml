@@ -86,3 +86,47 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
+  - name: "pages"
+    label: "页面设置"
+    files:
+      - name: "about"
+        label: "About"
+        file: "/source/about/index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
+          - {label: "评论", name: "comments", widget: "boolean", default: true}
+          - {label: "正文", name: "body", widget: "markdown"}
+      - name: "404"
+        label: "404 页面"
+        file: "/source/404/index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
+          - {label: "评论", name: "comments", widget: "boolean", default: true}
+          - {label: "永久链接", name: "permalink", widget: "string", default: "/404"}
+          - {label: "正文", name: "body", widget: "markdown"}
+      - name: "photos"
+        label: "光影留痕"
+        file: "/source/photos/index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "类型", name: "type", widget: "string", default: "picture"}
+          - {label: "评论", name: "comments", widget: "boolean", default: true}
+          - {label: "正文", name: "body", widget: "markdown"}
+      - name: "readme_hexo"
+        label: "README(hexo-source)"
+        file: "/source/README.md"
+        fields:
+          - {label: "正文", name: "body", widget: "markdown"}
+      - name: "readme_master"
+        label: "README(master)"
+        file: "/README.md"
+        fields:
+          - {label: "正文", name: "body", widget: "markdown"}
+      - name: "robots"
+        label: "Robots.txt"
+        file: "/robots.txt"
+        fields:
+          - {label: "正文", name: "body", widget: "text"}
+
