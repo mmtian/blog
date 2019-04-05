@@ -5,13 +5,13 @@ categories:
 tags:
   - 反垄断
   - 法律
-abbrlink: fdbd388d
 date: '2016-12-16 18:31:22'
 top: false
 toc: true
 mathjax: false
 comments: true
 reward: true
+abbrlink: fdbd388d
 ---
 {% note success %} This is the essay of CUHK PhD level course *Industrial Organization* {% endnote %}
 

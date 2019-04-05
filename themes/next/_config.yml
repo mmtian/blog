@@ -57,9 +57,9 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: heart
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
-    color: "#808080"
+    color: "#666"
 
   # If not defined, `author` from Hexo main config will be used.
   copyright:
@@ -83,7 +83,11 @@ footer:
     icp:
 
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
+  custom_text: '<i class="fa fa-fw fa-pencil-square-o" ></i>&nbsp;<a href="/admin" style="border-bottom: none" target="_blank">文章</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <i class="fa fa-fw fa-comments"></i>&nbsp;<a href="https://banbanramble.leanapp.cn" style="border-bottom: none" target="_blank">评论</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <i class="fa fa-fw fa-cloud"></i>&nbsp;<a href="https://console.cloud.tencent.com" style="border-bottom: none" target="_blank">图床</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <i class="fa fa-fw fa-bar-chart"></i>&nbsp;<a href="https://tongji.baidu.com" style="border-bottom: none" target="_blank">统计</a>'
+  # Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -228,10 +232,7 @@ links_title: 博客管理
 #links_layout: block
 links_layout: inline
 links:
-  "<i class='fa fa-fw fa-pencil-square-o'></i>  文章": /admin
-  "<i class='fa fa-fw fa-comments'></i>  评论": https://banbanramble.leanapp.cn
-  "<i class='fa fa-fw fa-cloud'></i>  图床": https://console.cloud.tencent.com
-  "<i class='fa fa-fw fa-bar-chart'></i>  统计": https://tongji.baidu.com
+#  "<i class='fa fa-fw fa-pencil-square-o'></i>  文章": /admin
 
 # Sidebar Avatar
 avatar:
@@ -835,9 +836,9 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: true
-  total_visitors_icon: #user
+  total_visitors_icon: user
   total_views: false
   total_views_icon: eye
   post_views: false

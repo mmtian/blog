@@ -4,14 +4,13 @@ categories:
   - 札记
 tags:
   - MacBook
-  - Apple
-abbrlink: 2b488870
 date: '2018-06-15 21:24:43'
 top: false
 toc: false
 mathjax: false
 comments: true
 reward: true
+abbrlink: 2b488870
 ---
 刚才发现我的 MacBook Pro 电池显示「Battery is not charging」，而且电量也从 100% 下降到了 92%，不过依然是显示「Power Source: Power Adapter」。
 

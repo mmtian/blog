@@ -5,23 +5,23 @@ categories:
 tags:
   - 众筹
   - econ
-abbrlink: 3b22d99a
 date: '2016-12-20 01:35:21'
 top: false
 toc: false
 mathjax: false
 comments: true
 reward: true
+abbrlink: 3b22d99a
 ---
 ## 1. Background
 
 [Luo Er raised money](http://tech.sina.com.cn/z/luoear) for his daughter's treatment fee through a WeChat media platform account in P2P finance. But people found that Luo actually is not so poor that he can't afford his daughter's treatment fee and the Shenzhen medical insurance can also cover part of her treatment fee.
 
-In Zhihu, the largest Chinese Q&A online community, when answering a question about people's opinions toward this case, [Katy家怡](https://www.zhihu.com/question/53144742/answer/133639599) mentions that:
+In Zhihu, the largest Chinese Q&A online community, when answering a question about people's opinions toward this case, [Katy家怡](https://www.zhihu.com/question/53144742/answer/133639599) mentions that:<!-- more -->
 
 > 前一段时间我认真研究了一个事儿，那就是清华北大的朋友的轻松筹两天之内就能完成目标金额，而普通的人，没有圈子人脉关系网的普通人，想要筹到五万是难上加难。再一次验证了筹款也是具有鲜明的阶级性的。
 
-Therefore, we want to figure out whether people with more social capital can raise money quickly and easier than those with less social capital in China.<!-- more -->
+Therefore, we want to figure out whether people with more social capital can raise money quickly and easier than those with less social capital in China.
 
 ## 2. Research design
 
