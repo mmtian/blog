@@ -206,8 +206,8 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   "  微博": https://www.weibo.com/prczdl || weibo
-  "  知乎": https://www.zhihu.com/people/ZhangDylan || custom zhihu
   "  GitHub": https://github.com/dldylan || github
+  "  知乎": https://www.zhihu.com/people/ZhangDylan || custom zhihu
   "  学术主页": https://dongleizhang.com || home
   #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
