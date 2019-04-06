@@ -6,7 +6,7 @@ backend:
 media_folder: "source/assets" # Folder path where uploaded files should be saved, relative to the base of the repo.
 public_folder: "/assets" # Folder path where uploaded files will be accessed, relative to the base of the built site.
 
-#publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 site_url: https://blog.dongleizhang.com
 display_url: https://blog.dongleizhang.com
 logo_url: https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/img/logo.svg
