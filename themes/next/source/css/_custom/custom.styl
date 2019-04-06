@@ -19,21 +19,28 @@
 .zhihu:before { content: "\e6ba"; }
 .douban:before { content: "\e638"; }
 
+//*********//
+//**标题区**//
+//*********//
 
-//标题区
+//页面最上面黑细条
 .headband {
   display: none;
 }
+//标题背景
 .brand {
   background: transparent;
 }
+//标题文字粗细
 .site-meta .site-title {
   font-weight: 900;
 }
+//副标题
 .site-meta .site-subtitle {
   font-family: Lato, "PingFang SC", "Microsoft YaHei", Georgia, sans-serif;
   color: #fff;
 }
+//导航区背景
 .header {
   background: url("/img/header-bg.jpg");
   //background-position-y: -15vh;
@@ -41,7 +48,7 @@
 .header-inner{
   padding: 25px 0 20px;
 }
-
+//页面背景
 body {
   background-image:url("/img/body-bg.png");
   background-repeat: repeat;
@@ -113,12 +120,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight:900;
 }
-
 //文章内文字间距
 .post-body p {
   letter-spacing: .5px;
 }
-
 //链接文本样式
 .post-body a{
   color: #0477ab;
@@ -128,24 +133,25 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
   }
 }
-
+//外链添加图标标示
 .post-body a[target="_blank"]:not([title^="@"]):after {
     font-family: "FontAwesome"; 
     content: "\f08e"; 
     font-size: 12px; 
     padding-left: 2px; 
 } 
+//文章图片边框取消
 .posts-expand .post-body img {
   border: 0px;
 }
 .post, .page {
-  margin-bottom: 40px;
-  padding: 50px 30px 25px;
+  margin-bottom: 40px;  //文章全文页与评论框间距
+  padding: 50px 40px 25px;  //文章页边距
   -webkit-box-shadow: 0 0 14px #cacbcb;
   -moz-box-shadow: 0 0 14px #cacbcb;
   box-shadow: 0 0 14px #cacbcb;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 10px;  //文章框四周角弧度
 }
 .posts-collapse .post{
   margin: 30px 0 30px 3px;
@@ -339,11 +345,6 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
   background: #fff !important;
 }
 
-@media (max-width: 991px) {
-  .sidebar-toggle {
-    display: inline !important;
-  }
-}
 
 //修改默认按钮样式
 .post-button {
