@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: dldylan/blog
+  repo: dongleizhang/blog
   branch: hexo-source # Branch to update (master by default)
 
 media_folder: "source/assets" # Folder path where uploaded files should be saved, relative to the base of the repo.

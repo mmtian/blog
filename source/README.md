@@ -1,5 +1,5 @@
 ## My blog
-[![Build Status](https://travis-ci.com/dldylan/blog.svg?branch=hexo-source)](https://travis-ci.com/dldylan/blog) [![Netlify Status](https://api.netlify.com/api/v1/badges/f6295f8c-8bf4-4a15-a873-9ca989e0817a/deploy-status)](https://app.netlify.com/sites/banbanramble/deploys)
+[![Build Status](https://travis-ci.com/dongleizhang/blog.svg?branch=hexo-source)](https://travis-ci.com/dongleizhang/blog) [![Netlify Status](https://api.netlify.com/api/v1/badges/f6295f8c-8bf4-4a15-a873-9ca989e0817a/deploy-status)](https://app.netlify.com/sites/banbanramble/deploys)
 
 This repo contains all contents of my blog based on Hexo NexT. `hexo-source` branch contains source files and `master` branch includes web files published by Travis CI automatically. `CNAME` should be put in `/source` folder if you would like to host it on GitHub Pages.
 
