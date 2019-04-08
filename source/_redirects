@@ -4,15 +4,15 @@
 https://banbanramble.netlify.com/* https://blog.dongleizhang.com/:splat 301!
 
 # Redirect admin link in footer
-/comments   https://banbanramble.leanapp.cn
-/cloud      https://console.cloud.tencent.com
-/analytics  https://tongji.baidu.com
+/comments   https://banbanramble.leanapp.cn 301!
+/cloud      https://console.cloud.tencent.com 301!
+/analytics  https://tongji.baidu.com 301!
 
 # Redirect social media link
-/homepage   https://dongleizhang.com
-/weibo      https://weibo.com/prczdl
-/github     https://github.com/dongleizhang
-/zhihu      https://www.zhihu.com/people/ZhangDylan
+/homepage   https://dongleizhang.com 301!
+/weibo      https://weibo.com/prczdl 301!
+/github     https://github.com/dongleizhang 301!
+/zhihu      https://www.zhihu.com/people/ZhangDylan 301!
 
 # Redirect QR code link
 /img/wechat_platform.jpg  https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/img/wechat_platform.jpg
