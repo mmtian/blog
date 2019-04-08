@@ -84,9 +84,9 @@ footer:
 
   # Any custom text can be defined here.
   custom_text: '<i class="fa fa-fw fa-pencil-square-o" ></i>&nbsp;<a href="/admin" style="border-bottom: none" target="_blank">文章</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                <i class="fa fa-fw fa-comments"></i>&nbsp;<a href="/comments" style="border-bottom: none" target="_blank">评论</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                <i class="fa fa-fw fa-cloud"></i>&nbsp;<a href="/cloud" style="border-bottom: none" target="_blank">图床</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                <i class="fa fa-fw fa-bar-chart"></i>&nbsp;<a href="/analytics" style="border-bottom: none" target="_blank">统计</a>'
+                <i class="fa fa-fw fa-comments"></i>&nbsp;<a href="https://banbanramble.leanapp.cn" style="border-bottom: none" target="_blank">评论</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <i class="fa fa-fw fa-cloud"></i>&nbsp;<a href="https://console.cloud.tencent.com" style="border-bottom: none" target="_blank">图床</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <i class="fa fa-fw fa-bar-chart"></i>&nbsp;<a href="https://tongji.baidu.com" style="border-bottom: none" target="_blank">统计</a>'
   # Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
 
 # Creative Commons 4.0 International License.
@@ -205,10 +205,10 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  "  微博": /weibo || weibo
-  "  GitHub": /github || github
-  "  知乎": /zhihu || custom zhihu
-  "  学术主页": /home || home
+  "  微博": https://weibo.com/prczdl || weibo
+  "  GitHub": https://github.com/dongleizhang || github
+  "  知乎": https://www.zhihu.com/people/ZhangDylan || custom zhihu
+  "  学术主页": https://dongleizhang.com || home
   #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
@@ -374,8 +374,8 @@ reward_settings:
   comment: <p style="font-size:14px; color:#34495e; margin:0 0 5px 0;">赞赏一下吧～ 还可以关注公众号订阅最新内容</p>
 
 reward:
-  wechatpay: /img/wechat_reward.jpg
-  alipay: /img/wechat_platform.jpg
+  wechatpay: /posts/qrcode/wechat_reward.jpg
+  alipay: /posts/qrcode/wechat_platform.jpg
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
