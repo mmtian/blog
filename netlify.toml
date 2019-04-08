@@ -85,6 +85,6 @@ ID = "banbanramble"
 
 [[redirects]]
   from = "/post/*"
-  to = "https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/post/*"
+  to = "https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/post/:splat"
   status = 200
   force = true
