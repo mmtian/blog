@@ -30,44 +30,44 @@ ID = "banbanramble"
 [[redirects]]
   from = "/comments"
   to = "https://banbanramble.leanapp.cn"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
   from = "/cloud"
   to = "https://console.cloud.tencent.com"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
   from = "/analytics"
   to = "https://tongji.baidu.com"
-  status = 200
+  status = 301
   force = true
 
 # Redirect social media link
 [[redirects]]
   from = "/homepage"
   to = "https://dongleizhang.com"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
   from = "/weibo"
   to = "https://weibo.com/prczdl"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
   from = "/github"
   to = "https://github.com/dongleizhang"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
   from = "/zhihu"
   to = "https://www.zhihu.com/people/ZhangDylan"
-  status = 200
+  status = 301
   force = true
 
 # Redirect QR code link
