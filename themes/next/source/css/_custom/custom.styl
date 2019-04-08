@@ -144,53 +144,108 @@ h1, h2, h3, h4, h5, h6 {
 .posts-expand .post-body img {
   border: 0px;
 }
-.post, .page {
+.post {
   margin-bottom: 40px;  //文章全文页与评论框间距
-  padding: 50px 40px 25px;  //文章页边距
+  padding: 30px 40px 30px;  //文章页边距
   -webkit-box-shadow: 0 0 14px #cacbcb;
   -moz-box-shadow: 0 0 14px #cacbcb;
   box-shadow: 0 0 14px #cacbcb;
   background: #fff;
   border-radius: 10px;  //文章框四周角弧度
 }
+.page {
+  margin-bottom: 40px;  //文章全文页与评论框间距
+  padding: 30px 40px 40px;  //文章页边距
+  -webkit-box-shadow: 0 0 14px #cacbcb;
+  -moz-box-shadow: 0 0 14px #cacbcb;
+  box-shadow: 0 0 14px #cacbcb;
+  background: #fff;
+  border-radius: 10px;  //文章框四周角弧度
+}
+.posts-collapse {
+    margin: 0 20px 0;
+  }
+
+.post-block.archive .posts-collapse {
+  margin: 0 5px 0;
+}
+
 .posts-collapse .post{
   margin: 30px 0 30px 3px;
 }
-.posts-expand .post-eof {
-  display: block;
-  margin: 0px auto 30px;
-  width: 0;
+
+//调整分类页面缩进以配合日期格式长度
+//修改 /themes/next/layout/_macro/post-collapse.swig 中 {{ date(post.date, 'YYYY-MM-DD') }} 
+.posts-collapse .post-meta {
+  left:15px;
+  top: 8px;
+}
+.posts-expand .post-meta {
+  text-align: left;
+  margin: 3px 0 40px 0;
+}
+.posts-expand .post-block.archive .post-meta  {
+  color: #555;
+}
+.posts-expand .post-meta time {
+  border-bottom: none;
+  cursor: initial;
+}
+.posts-collapse .post-title {
+  margin-left: 90px
+  padding: 5px 0 0 0;
+}
+.post-block.archive .posts-collapse .post-title {
+  padding: 2px 0 0 0;
 }
 .posts-expand .post-title {
-  font-size: 24px
+  font-size: 24px;
   border-left: #649ab6 8px solid;
   font-weight: 900;
   padding-left: 10px;
-}
-.posts-expand .post-meta {
-  margin: 3px 0 40px 0;
-}
-.posts-expand .post-title, .posts-expand .post-meta {
   text-align: left;
+}
+.posts-expand .post-eof {
+  display: block;
+  margin: 0px auto 0px;
+  width: 0;
+}
+.post-block.archive .posts-collapse .collection-title {
+  margin: 0;
+}
+.posts-expand .post-block.archive .post-title-link:hover::before{
+  visibility: hidden;
+}
+.posts-expand .post-title-link{
+  line-height: 1.5;
+}
+.post-block.archive .post {
+  padding: 5px 30px 15px;
+  line-height: 0.7;
+}
+.post-block.archive .post-title h3 {
+  margin: 10px 0 10px;
+}
+.post-block.category .post, .post-block.tag .post {
+  padding: 5px 30px 15px;
+  line-height: 1.25;
+}
+.post-block.category .post .post-title, .post-block.tag .post .post-title, .post-block.archive .post .post-title {
+  font-family: Lato, "PingFang SC", "Microsoft YaHei", Georgia, sans;
+  font-size: 16px;
+  border-left: none;
+  font-weight: normal;
+  padding-left: 0;
+}
+.post-block.page .post-body hr {
+  margin: 25px 0;
 }
 .page-post-detail .post-title, .page-post-detail .post-meta {
   text-align: center;
   border-left: none;
   padding-left: 0;
 }
-.posts-expand .post-title-link{
-  line-height: 1.5;
-}
-.post-block.category .post, .post-block.tag .post  {
-  padding: 5px 30px 15px;
-  line-height: 1.25;
-}
-.post-block.category .post .post-title, .post-block.tag .post .post-title {
-  font-family: Lato, "PingFang SC", "Microsoft YaHei", Georgia, sans;
-}
-.posts-collapse .collection-title small {
-  color: #808080;
-}
+
 a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-douban-tab.hexo-douban-active , a#hexo-douban-tab3.hexo-douban-tab.hexo-douban-active {
   color: #fff;
   text-decoration: none;
@@ -199,12 +254,22 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
   .post {
     padding: 15px 5px 15px;
   }
+  .page {
+  margin-bottom: 10px;  //文章全文页与评论框间距
+}
   .posts-expand {
     margin: 20px !important;
   }
   .posts-expand .post-title {
     font-size: 21px;
   }
+  .post-block.archive .posts-collapse .post-title {
+    margin-left: 72px;
+  }
+
+.posts-expand .post-header {
+  padding: 0 5px 0 18px;
+}
   .hexo-douban-item {
     width: inherit !important; 
   }
@@ -214,13 +279,14 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
   hr {
     margin: 40px 10px;
   }
-}
-
-@media (max-width: 567px) {
   .post-body > ul, .post-body > li {
     padding:0 40px;
   }
+  .post-block.page .category-all-page .category-list {
+  list-style: initial;
+  }
 }
+
 
 //评论区
 .comments{
@@ -280,14 +346,7 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
   }
 }
 
-//调整分类页面缩进以配合日期格式长度
-//修改 /themes/next/layout/_macro/post-collapse.swig 中 {{ date(post.date, 'YYYY-MM-DD') }} 
-.posts-collapse .post-meta {
-  left:15px;
-}
-.posts-collapse .post-title {
-  margin-left: 90px
-}
+
 
 //页码栏
 .pagination, .pagination .prev, .pagination .next, .pagination .page-number {
@@ -306,11 +365,9 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
 .site-author-name, .site-description {
   font-family: 'Comic Sans MS', "PingFang SC", "Microsoft YaHei", Georgia, sans-serif;
 }
-
 .links-of-author {
   margin-top: 40px;
 }
-
 .links-of-author a {
   border-bottom: none;
   background-color: #3a5c6b;
@@ -349,6 +406,7 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
 //修改默认按钮样式
 .post-button {
   text-align: right;
+  margin-top: 15px;
 }
 .btn {
   padding: 3px 15px
