@@ -17,3 +17,69 @@ ID = "banbanramble"
 
   # Default build command.
   command = "hexo douban && hexo generate"
+
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://banbanramble.netlify.com/*"
+  to = "https://blog.dongleizhang.com/:splat"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+# Redirect admin link in footer
+[[redirects]]
+  from = "/comments"
+  to = "https://banbanramble.leanapp.cn"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/cloud"
+  to = "https://console.cloud.tencent.com"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/analytics"
+  to = "https://tongji.baidu.com"
+  status = 200
+  force = true
+
+# Redirect social media link
+[[redirects]]
+  from = "/homepage"
+  to = "https://dongleizhang.com"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/weibo"
+  to = "https://weibo.com/prczdl"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/dongleizhang"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/zhihu"
+  to = "https://www.zhihu.com/people/ZhangDylan"
+  status = 200
+  force = true
+
+# Redirect QR code link
+[[redirects]]
+  from = "/img/wechat_platform.jpg"
+  to = "https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/img/wechat_platform.jpg"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/img/wechat_reward.jpg"
+  to = "https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/img/wechat_reward.jpg"
+  status = 200
+  force = true
+    
