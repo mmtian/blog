@@ -113,6 +113,14 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
+# Baidu url Submitter
+# Dependencies: npm install hexo-baidu-url-submit --save
+baidu_url_submit:
+  count: 50 ## 提交最新的一个链接
+  host: blog.dongleizhang.com ## 在百度站长平台中注册的域名
+  token: BAIDU_TOKEN ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -120,5 +128,6 @@ deploy:
     repo: https://GH_TOKEN@github.com/dongleizhang/blog.git
     branch: master
 # - type: git
-#   repo: https://dongleizhang:CODING_TOKEN@git.dev.tencent.com/dongleizhang/blog.git
+#   repo: https://dldylan:CODING_TOKEN@git.dev.tencent.com/dldylan/blog.git
 #   branch: master
+  - type: baidu_url_submitter
