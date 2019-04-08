@@ -82,4 +82,9 @@ ID = "banbanramble"
   to = "https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/img/wechat_reward.jpg"
   status = 200
   force = true
-    
+
+[[redirects]]
+  from = "/post/*"
+  to = "https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/post/*"
+  status = 200
+  force = true
