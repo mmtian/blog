@@ -16,4 +16,5 @@ ID = "banbanramble"
   publish = "/public"
 
   # Default build command.
-  command = [ "hexo douban", "hexo generate" ]
+  command = "hexo douban"
+  command = "hexo generate"
