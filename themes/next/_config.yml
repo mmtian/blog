@@ -374,8 +374,8 @@ reward_settings:
   comment: <p style="font-size:14px; color:#34495e; margin:0 0 5px 0;">赞赏一下吧～ 还可以关注公众号订阅最新内容</p>
 
 reward:
-  wechatpay: /posts/qrcode/wechat_reward.jpg
-  alipay: /posts/qrcode/wechat_platform.jpg
+  wechatpay: /cloud/qrcode/wechat_reward.jpg
+  alipay: /cloud/qrcode/wechat_platform.jpg
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts

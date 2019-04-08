@@ -28,7 +28,7 @@ ID = "banbanramble"
 
 # Redirect qcloud link
 [[redirects]]
-  from = "/posts/*"
+  from = "/cloud/*"
   to = "https://banbanramble-1256060851.cos.ap-shanghai.myqcloud.com/posts/:splat"
   status = 200
   force = true
