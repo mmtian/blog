@@ -88,7 +88,7 @@ douban:
   user: 179242800
   builtin: false
   book:
-    title: '阅读记录'
+    title: '书破万卷'
     quote: '希望我们，都成为拥有好奇心与想象力的人，都是不断发现更大世界的有趣人类。'
   #movie:
   #  title: '观影打卡'

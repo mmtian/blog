@@ -164,7 +164,7 @@ menu:
   home: / || home
   #tags: /tags/ || tags
   #categories: /categories/ || th
-  archives: /archives/ || bookmark
+  archives: /archives/ || archive
   photos: /photos || camera-retro
   books: /books || book
   #movies: /movies || film
