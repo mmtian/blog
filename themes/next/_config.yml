@@ -279,9 +279,9 @@ sidebar:
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: true
+  onmobile: false
   # Click any blank part of the page to close sidebar (only for Muse | Mist).
-  dimmer: true
+  dimmer: false
 
 back2top:
   enable: true
@@ -328,7 +328,7 @@ auto_excerpt:
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.
-read_more_btn: true
+read_more_btn: false
 
 # Post meta display settings
 post_meta:
@@ -424,7 +424,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties
+highlight_theme: normal
 
 # Enable "cheers" for archive page.
 cheers: false

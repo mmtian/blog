@@ -246,17 +246,13 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
 }
 
-a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-douban-tab.hexo-douban-active , a#hexo-douban-tab3.hexo-douban-tab.hexo-douban-active {
-  color: #fff;
-  text-decoration: none;
-}
 @media (max-width: 767px) {
   .post {
     padding: 15px 5px 15px;
   }
   .page {
-  margin-bottom: 10px;  //文章全文页与评论框间距
-}
+    margin-bottom: 10px;  //文章全文页与评论框间距
+  }
   .posts-expand {
     margin: 20px !important;
   }
@@ -266,15 +262,8 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
   .post-block.archive .posts-collapse .post-title {
     margin-left: 72px;
   }
-
-.posts-expand .post-header {
-  padding: 0 5px 0 18px;
-}
-  .hexo-douban-item {
-    width: inherit !important; 
-  }
-  .hexo-douban-item, .hexo-douban-tabs {
-    margin: 0 10px 0;
+  .posts-expand .post-block.archive .post-header {
+    padding: 0 0 0 18px;
   }
   hr {
     margin: 40px 10px;
@@ -284,6 +273,19 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
   }
   .post-block.page .category-all-page .category-list {
   list-style: initial;
+  }
+}
+
+a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-douban-tab.hexo-douban-active , a#hexo-douban-tab3.hexo-douban-tab.hexo-douban-active {
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .hexo-douban-item {
+    width: inherit !important; 
+  }
+  .hexo-douban-item, .hexo-douban-tabs {
+    margin: 0 10px 0;
   }
 }
 
@@ -347,7 +349,6 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
 }
 
 
-
 //页码栏
 .pagination, .pagination .prev, .pagination .next, .pagination .page-number {
   border:none;
@@ -403,7 +404,8 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
 }
 
 
-//修改默认按钮样式
+//修改阅读全文按钮样式
+/*
 .post-button {
   text-align: right;
   margin-top: 15px;
@@ -426,6 +428,7 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
     margin-right: 18px;
   }
 }
+*/
 
 //Disqus加载按钮样式
 /*
@@ -451,7 +454,6 @@ a#hexo-douban-tab1.hexo-douban-tab.hexo-douban-active, a#hexo-douban-tab2.hexo-d
   }
 }
 */
-
 
 //赞赏按钮样式
 #reward-button {

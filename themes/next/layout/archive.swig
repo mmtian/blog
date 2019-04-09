@@ -14,7 +14,7 @@
   <div id="posts" class="posts-expand">
   <div class="post-block page"> 
     <div class="post-body">
-      <h2 class="post-title" style=" border-left:none;padding-left:0;text-align:center;padding-top:0;">文章归档</h2>
+      <h2 class="post-title" style="border-left:none;padding-left:0;text-align:center;">文章归档</h2>
       <div class="post-meta"></div>
       <div class="category-all-page">
         <div class="category-all-title">
