@@ -64,7 +64,12 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  「学术不神秘」: academic
+  「技术三两事」: technology
+  「生活随手记」: notes
+  「碎碎念不停」: ramble
 tag_map:
+
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "永久链接", name: "abbrlink", widget: "string", default: "", required: false}
       - {label: "正文", name: "body", widget: "markdown", default: "<!-- more -->"}
-  - name: "blogbuild" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "technology" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "技术三两事" # Used in the UI, ie.: "New Post"
     folder: "/source/_posts/技术三两事" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection

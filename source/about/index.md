@@ -18,4 +18,4 @@ comments: true
 　
 ### 朋友们的博客
 一些好看好玩的博客，也欢迎分享你的最爱～
-[Shuxin Yang](http://shuxinyang.com)　　[槽](https://miyehn.me/blog/)
+[Shuxin Yang](http://shuxinyang.com)　　[槽](https://miyehn.me/blog)　　[Divergent](http://dannii.cc)
