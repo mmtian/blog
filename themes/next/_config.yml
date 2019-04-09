@@ -169,7 +169,7 @@ menu:
   books: /books || book
   #movies: /movies || film
   #games: /games || gamepad
-  about: /about/ || user
+  about: /about/ || heart
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
