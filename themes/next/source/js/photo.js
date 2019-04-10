@@ -19,8 +19,8 @@ photo ={
            imageSize = data[i].split(' ')[0];
            imageX = imageSize.split('.')[0];
            imageY = imageSize.split('.')[1];
-            li += '<div class="card" style="width:230px">' +
-                    '<div class="ImageInCard" style="height:'+ 230 * imageY / imageX + 'px">' +
+            li += '<div class="card" style="width:224px">' +
+                    '<div class="ImageInCard" style="height:'+ 224 * imageY / imageX + 'px">' +
                       '<a data-fancybox="gallery" href="/cloud/photos/' + imgNameWithPattern + '?raw=true" data-caption="' + imgName + '">' +
                         '<img src="/cloud/photos/' + imgNameWithPattern + '?raw=true"/>' +
                       '</a>' +
