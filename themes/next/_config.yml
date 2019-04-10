@@ -962,7 +962,7 @@ mermaid:
 # Use velocity to animate everything.
 motion:
   enable: false
-  async: false
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
