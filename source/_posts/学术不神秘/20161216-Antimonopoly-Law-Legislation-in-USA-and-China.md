@@ -174,4 +174,3 @@ Wang, X. (2004, June 2). Problems of China's Anti-Monopoly Law. Economic Informa
 Wang, Y. (2011). Paradox of Anti-Monopoly Law. New Century (P.R.C.)(45).
 
 Xu, S. (2014). Anti-monopoly Law Drafter: Legislation Is A Struggle. Oriental Outlook (P.R.C.).
-
