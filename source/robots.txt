@@ -7,4 +7,3 @@ Disallow: /img/
 Disallow: /images/
 
 Sitemap: https://blog.dlzhang.com/sitemap.xml
-Sitemap: https://blog.dlzhang.com/baidusitemap.xml
