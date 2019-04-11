@@ -7,8 +7,8 @@ media_folder: "source/assets" # Folder path where uploaded files should be saved
 public_folder: "/assets" # Folder path where uploaded files will be accessed, relative to the base of the built site.
 
 publish_mode: editorial_workflow
-site_url: https://blog.dongleizhang.com
-display_url: https://blog.dongleizhang.com
+site_url: https://blog.dlzhang.com
+display_url: https://blog.dlzhang.com
 logo_url: /img/logo.svg
 show_preview_links: true
 # slug:

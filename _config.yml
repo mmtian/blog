@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.dongleizhang.com
+url: https://blog.dlzhang.com
 root: /
 permalink: posts/:abbrlink/
 abbrlink:
@@ -123,7 +123,7 @@ baidusitemap:
 # Dependencies: npm install hexo-baidu-url-submit --save
 baidu_url_submit:
   count: 2 ## 提交最新的一个链接
-  host: blog.dongleizhang.com ## 在百度站长平台中注册的域名
+  host: blog.dlzhang.com ## 在百度站长平台中注册的域名
   token: BAIDU_TOKEN ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 

@@ -10,7 +10,7 @@ comments: true
 你可以在下方评论留言，也可以通过邮件联系我：dongleidylan#foxmail.com（替换 # 为 @）。
 
 ### 在这里发现更多
-　<i class="fa fa-fw fa-home"></i>&nbsp;&nbsp;[学术主页](https://dongleizhang.com "@Donglei Zhang")
+　<i class="fa fa-fw fa-home"></i>&nbsp;&nbsp;[学术主页](https://dlzhang.com "@Donglei Zhang")
 　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://www.weibo.com/prczdl "@班班_Dylan")
 　<i class="fa fa-fw fa-custom zhihu"></i>&nbsp;&nbsp;[知乎](https://www.zhihu.com/people/ZhangDylan "@班班")
 　<i class="fa fa-fw fa-github"></i>&nbsp;&nbsp;[GitHub](https://github.com/dongleizhang "@dongleizhang")

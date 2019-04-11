@@ -22,7 +22,7 @@ ID = "banbanramble"
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
   from = "https://banbanramble.netlify.com/*"
-  to = "https://blog.dongleizhang.com/:splat"
+  to = "https://blog.dlzhang.com/:splat"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
