@@ -112,14 +112,6 @@ auto_category:
   enable: true
   depth: 1
 
-# Sitemap Setting
-# Dependencies: npm install hexo-generator-sitemap --save
-# Dependencies: npm install hexo-generator-baidu-sitemap --save
-sitemap:
-  path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
-
 # Baidu url Submitter
 # Dependencies: npm install hexo-baidu-url-submit --save
 baidu_url_submit:

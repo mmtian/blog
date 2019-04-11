@@ -2,7 +2,7 @@
 title: 404 Not Found
 toc: false
 comments: false
-permalink: /404
+permalink: 404.html
 ---
 您访问的页面无法找到。 The page you're looking for could not be found.
 
