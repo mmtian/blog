@@ -439,7 +439,7 @@ tagcloud:
   max: 30 # max font size in px
   start: "#ccc" # start color (hex, rgba, hsla or color keywords)
   end: "#111" # end color (hex, rgba, hsla or color keywords)
-  amount: 200 # amount of tags, chage it if you have more than 200 tags
+  amount: 200 # amount of tags, change it if you have more than 200 tags
 
 
 # ---------------------------------------------------------------
@@ -647,7 +647,7 @@ valine:
   enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
   appid:  EsreAB7Wk1nywHfRdRGdwUnd-gzGzoHsz # your leancloud application appid
   appkey: SYNEEXF74zGPuCfrseHobeTJ # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: 留下邮箱，有回复时你将收到提醒，邮箱不会被公开。 # comment box placeholder
   avatar: wavatar # gravatar style https://valine.js.org/avatar/
