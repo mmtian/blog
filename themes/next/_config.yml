@@ -84,7 +84,7 @@ footer:
 
   # Any custom text can be defined here.
   custom_text: '<i class="fa fa-fw fa-pencil-square-o" ></i>&nbsp;<a href="/admin" style="border-bottom: none" target="_blank">文章</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                <i class="fa fa-fw fa-comments"></i>&nbsp;<a href="https://banbanramble.leanapp.cn" style="border-bottom: none" target="_blank">评论</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <i class="fa fa-fw fa-comments"></i>&nbsp;<a href="https://bbramble.cn-e1.leanapp.cn" style="border-bottom: none" target="_blank">评论</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
                 <i class="fa fa-fw fa-cloud"></i>&nbsp;<a href="https://console.cloud.tencent.com" style="border-bottom: none" target="_blank">图床</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
                 <i class="fa fa-fw fa-bar-chart"></i>&nbsp;<a href="https://tongji.baidu.com" style="border-bottom: none" target="_blank">统计</a>'
   # Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
@@ -645,8 +645,8 @@ changyan:
 # More info available at https://valine.js.org
 valine:
   enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  EsreAB7Wk1nywHfRdRGdwUnd-gzGzoHsz # your leancloud application appid
-  appkey: SYNEEXF74zGPuCfrseHobeTJ # your leancloud application appkey
+  appid:  hnJ00iwllbdenE8m97HJV5J7-9Nh9j0Va # your leancloud application appid
+  appkey: lpAPBtcDNSCiuKaLaJf22nTw # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: 留下邮箱，有回复时你将收到提醒，邮箱不会被公开。 # comment box placeholder
@@ -816,8 +816,8 @@ rating:
 # You can visit https://leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: EsreAB7Wk1nywHfRdRGdwUnd-gzGzoHsz
-  app_key: SYNEEXF74zGPuCfrseHobeTJ
+  app_id: hnJ00iwllbdenE8m97HJV5J7-9Nh9j0Va
+  app_key: lpAPBtcDNSCiuKaLaJf22nTw
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
