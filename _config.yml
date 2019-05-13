@@ -34,7 +34,6 @@ skip_render:
   - books/**
   - games/**
   - admin/**
-  - _redirects
   - google1a9399db4c928438.html
 
 # Writing
