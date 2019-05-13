@@ -105,13 +105,6 @@ douban:
     quote: '我既然花钱买了游戏，为什么还要花时间玩？'
   timeout: 30000 #optional
 
-# Generate categories from directory-tree
-# Dependencies: https://github.com/xu-song/hexo-auto-category
-# depth: the max_depth of directory-tree you want to generate, should > 0
-auto_category:
-  enable: true
-  depth: 1
-
 # Baidu url Submitter
 # Dependencies: npm install hexo-baidu-url-submit --save
 baidu_url_submit:
