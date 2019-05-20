@@ -3,8 +3,8 @@ backend:
   repo: dongleizhang/blog
   branch: hexo-source # Branch to update (master by default)
 
-media_folder: "source/assets" # Folder path where uploaded files should be saved, relative to the base of the repo.
-public_folder: "/assets" # Folder path where uploaded files will be accessed, relative to the base of the built site.
+media_folder: "source/img" # Folder path where uploaded files should be saved, relative to the base of the repo.
+public_folder: "/img" # Folder path where uploaded files will be accessed, relative to the base of the built site.
 
 publish_mode: editorial_workflow
 site_url: https://blog.dlzhang.com
@@ -106,6 +106,22 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "页面设置"
     files:
+      - name: "photos"
+        label: "光影留痕"
+        file: "/source/photos/index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "类型", name: "type", widget: "string", default: "picture"}
+          - {label: "评论", name: "comments", widget: "boolean", default: true}
+          - {label: "正文", name: "body", widget: "markdown"}
+      - name: "books"
+        label: "书破万卷"
+        file: "/source/books/index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
+          - {label: "评论", name: "comments", widget: "boolean", default: true}
+          - {label: "正文", name: "body", widget: "markdown"}
       - name: "about"
         label: "关于班班"
         file: "/source/about/index.md"
@@ -122,14 +138,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "永久链接", name: "permalink", widget: "string", default: "/404"}
-          - {label: "正文", name: "body", widget: "markdown"}
-      - name: "photos"
-        label: "光影留痕"
-        file: "/source/photos/index.md"
-        fields:
-          - {label: "标题", name: "title", widget: "string"}
-          - {label: "类型", name: "type", widget: "string", default: "picture"}
-          - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "readme_hexo"
         label: "README (hexo-source)"

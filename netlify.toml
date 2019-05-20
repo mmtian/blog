@@ -16,7 +16,7 @@ ID = "dlzhang-blog"
   publish = "/public"
 
   # Default build command.
-  command = "hexo douban && hexo generate"
+  command = "hexo generate"
 
 
 # Redirect default Netlify subdomain to primary domain

@@ -31,8 +31,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - README.md
-  - books/**
-  - games/**
   - admin/**
   - google1a9399db4c928438.html
 
@@ -88,21 +86,6 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
-#Douban Page
-douban:
-  user: 179242800
-  builtin: false
-  book:
-    title: '书破万卷'
-    quote: '希望我们，都成为拥有好奇心与想象力的人，都是不断发现更大世界的有趣人类。'
-  #movie:
-  #  title: '观影打卡'
-  #  quote: ''
-  game:
-    title: 'Steam 喜加一'
-    quote: '我既然花钱买了游戏，为什么还要花时间玩？'
-  timeout: 30000 #optional
 
 # Baidu url Submitter
 # Dependencies: npm install hexo-baidu-url-submit --save
