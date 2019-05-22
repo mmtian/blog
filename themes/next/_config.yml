@@ -204,9 +204,9 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  "  学术主页": https://dlzhang.com || university
   "  微博": https://weibo.com/prczdl || weibo
-  "  GitHub": https://github.com/dongleizhang || github
+  "  Twitter": https://twitter.com/lei2rock || twitter
+  "  GitHub": https://github.com/lei2rock || github
   #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
