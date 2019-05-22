@@ -77,7 +77,7 @@ footer:
     version: false
 
   # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
-  # http://www.miitbeian.gov.cn
+  # http://www.beian.miit.gov.cn
   beian:
     enable: false
     icp:
@@ -225,12 +225,12 @@ social_icons:
   transition: false
 
 # Blog rolls
-links_icon: cog
-links_title: 博客管理
-#links_layout: block
-links_layout: inline
+links_icon: link
+links_title: Links
+links_layout: block
+#links_layout: inline
 links:
-#  "<i class='fa fa-fw fa-pencil-square-o'></i>  文章": /admin
+  #Title: http://example.com
 
 # Sidebar Avatar
 avatar:
@@ -960,7 +960,7 @@ mermaid:
 # Use velocity to animate everything.
 motion:
   enable: false
-  async: true
+  async: false
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
