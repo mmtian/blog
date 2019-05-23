@@ -6,7 +6,7 @@
 title: Banban Ramble
 subtitle: 班班碎碎念
 description: 生活记录、碎碎念与科研动态不定时更新
-keywords: Donglei, 班班, 碎碎念, 班班碎碎念
+keywords: Donglei, 班班, 碎碎念
 author: 班班
 language: zh-CN
 timezone: Asia/Shanghai
@@ -35,7 +35,7 @@ skip_render:
   - google1a9399db4c928438.html
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year:month:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
