@@ -7,7 +7,7 @@ comments: true
 
 博客名 *Banban Ramble*（班班碎碎念），顾名思义记录一些日常生活、科研随笔与文摘。博客改了 [好多个版本](/posts/82ef8c2e/)，代码放在 [GitHub](https://github.com/lei2rock/blog) 上面。如果需要转载博客的文章、照片，请先获得我的同意。
 
-你可以在下方评论留言，也可以通过邮件联系我：dongleidylan#foxmail.com（替换 # 为 @）。
+你可以在下方评论留言，也可以邮件联系我：`aWRvbmdsZWlAZm94bWFpbC5jb20K`（已采用 base64 加密）。
 
 ### 在这里发现更多
 　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://weibo.com/prczdl "@班班_Dylan")
