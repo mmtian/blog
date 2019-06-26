@@ -637,8 +637,8 @@ changyan:
 # More info available at https://valine.js.org
 valine:
   enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  qhtORdWyQtsW3UVygYWy5Atk-9Nh9j0Va # your leancloud application appid
-  appkey: 8HhONPOGj86wbdlfDzuWx9JR # your leancloud application appkey
+  appid:  ydaoV9samWgzerLX7OHEbRgk-MdYXbMMI # your leancloud application appid
+  appkey: 5jRfX3rExENmJqhdzkRqPndP # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: 留下邮箱，有回复时你将收到提醒，邮箱不会被公开。 # comment box placeholder
@@ -808,8 +808,8 @@ rating:
 # You can visit https://leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: qhtORdWyQtsW3UVygYWy5Atk-9Nh9j0Va
-  app_key: 8HhONPOGj86wbdlfDzuWx9JR
+  app_id: ydaoV9samWgzerLX7OHEbRgk-MdYXbMMI
+  app_key: 5jRfX3rExENmJqhdzkRqPndP
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
