@@ -32,7 +32,6 @@ i18n_dir: :lang
 skip_render:
   - README.md
   - admin/**
-  - google1a9399db4c928438.html
 
 # Writing
 new_post_name: :year:month:day-:title.md # File name of new posts
@@ -62,11 +61,11 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  「书影新世界」: bookmovie
-  「学术不神秘」: academic
-  「技术三两事」: technology
-  「生活随手记」: notes
-  「碎碎念不停」: ramble
+  书影新世界: bookmovie
+  学术不神秘: academic
+  技术三两事: technology
+  生活随手记: notes
+  碎碎念不停: ramble
 tag_map:
 
 
@@ -86,14 +85,6 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
-# Baidu url Submitter
-# Dependencies: npm install hexo-baidu-url-submit --save
-baidu_url_submit:
-  count: 2 ## 提交最新的一个链接
-  host: blog.dlzhang.com ## 在百度站长平台中注册的域名
-  token: BAIDU_TOKEN ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
-  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
