@@ -1,7 +1,7 @@
 ---
 title: Websites for Economic Study & Research
 categories:
-  - 「学术不神秘」
+  - 学术不神秘
 tags:
   - econ
   - list

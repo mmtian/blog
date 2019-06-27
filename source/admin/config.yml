@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "专栏", name: "categories", widget: "list", default: ["「学术不神秘」"]}
+      - {label: "专栏", name: "categories", widget: "list", default: ["学术不神秘"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -42,7 +42,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "专栏", name: "categories", widget: "list", default: ["「技术三两事」"]}
+      - {label: "专栏", name: "categories", widget: "list", default: ["技术三两事"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -59,7 +59,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "专栏", name: "categories", widget: "list", default: ["「生活随手记」"]}
+      - {label: "专栏", name: "categories", widget: "list", default: ["生活随手记"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
@@ -76,7 +76,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "专栏", name: "categories", widget: "list", default: ["「碎碎念不停」"]}
+      - {label: "专栏", name: "categories", widget: "list", default: ["碎碎念不停"]}
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}

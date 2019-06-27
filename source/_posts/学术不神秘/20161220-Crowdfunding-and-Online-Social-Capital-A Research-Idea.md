@@ -1,7 +1,7 @@
 ---
 title: 'Crowdfunding and Online Social Capital: A Research Idea'
 categories:
-  - 「学术不神秘」
+  - 学术不神秘
 tags:
   - 众筹
   - econ

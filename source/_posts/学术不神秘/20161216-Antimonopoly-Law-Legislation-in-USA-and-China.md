@@ -1,7 +1,7 @@
 ---
 title: Antimonopoly Law Legislation in USA and China
 categories:
-  - 「学术不神秘」
+  - 学术不神秘
 tags:
   - 反垄断
   - 法律

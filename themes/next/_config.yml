@@ -84,7 +84,7 @@ footer:
 
   # Any custom text can be defined here.
   custom_text: '<i class="fa fa-fw fa-pencil-square-o" ></i>&nbsp;<a href="/admin" style="border-bottom: none" rel="noopener" target="_blank">文章</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                <i class="fa fa-fw fa-comments"></i>&nbsp;<a href="https://lei2rock.cn-e1.leanapp.cn" style="border-bottom: none" rel="noopener" target="_blank">评论</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <i class="fa fa-fw fa-comments"></i>&nbsp;<a href="https://lei2rock.avosapps.us" style="border-bottom: none" rel="noopener" target="_blank">评论</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
                 <i class="fa fa-fw fa-cloud"></i>&nbsp;<a href="https://console.cloud.tencent.com" style="border-bottom: none" rel="noopener" target="_blank">图床</a>'
   # Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
 
@@ -470,7 +470,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: PT Serif
+    family: Noto Serif SC
     size:
 
   # Font settings for posts.
@@ -483,8 +483,8 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: Caveat
-    size: 40
+    family: ZCOOL KuaiLe
+    size: 35
 
   # Font settings for <code> and code blocks.
   codes:
@@ -641,8 +641,8 @@ valine:
   appkey: 5jRfX3rExENmJqhdzkRqPndP # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: 留下邮箱，有回复时你将收到提醒，邮箱不会被公开。 # comment box placeholder
-  avatar: wavatar # gravatar style https://valine.js.org/avatar/
+  placeholder: 请在上方填写你的邮箱，有回复时将邮件提醒，邮箱不会被公开。 # comment box placeholder
+  avatar: wavatar # gravatar style https://valine.js.org/avatar
   guest_info: nick,mail # custom comment header default: nick,mail,link
   pageSize: 10 # pagination size
   language: zh-cn # language, available values: en, zh-cn

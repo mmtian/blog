@@ -1,7 +1,7 @@
 ---
 title: Top Journals in Economics
 categories:
-  - 「学术不神秘」
+  - 学术不神秘
 tags:
   - econ
   - list

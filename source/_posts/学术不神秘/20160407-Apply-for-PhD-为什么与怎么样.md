@@ -1,7 +1,7 @@
 ---
 title: Apply for PhD：为什么与怎么样
 categories:
-  - 「学术不神秘」
+  - 学术不神秘
 tags:
   - PhD
 date: '2016-04-07 22:54:42'
