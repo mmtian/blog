@@ -59,7 +59,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#666"
+    color: "#ff0000"
 
   # If not defined, `author` from Hexo main config will be used.
   copyright:
@@ -163,7 +163,7 @@ menu:
   home: / || home
   #tags: /tags/ || tags
   #categories: /categories/ || th
-  archives: /archives/ || archive
+  #archives: /archives/ || archive
   photos: /photos || camera-retro
   books: /books || book
   about: /about/ || heart
@@ -182,10 +182,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -239,7 +239,7 @@ avatar:
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
   # If true, the avatar would be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Table Of Contents in the Sidebar
 toc:
@@ -484,7 +484,7 @@ font:
   logo:
     external: true
     family: ZCOOL KuaiLe
-    size: 35
+    size: 30
 
   # Font settings for <code> and code blocks.
   codes:
