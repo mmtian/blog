@@ -10,7 +10,7 @@ comments: true
 你可以在下方评论留言，也可以邮件联系我：idonglei#foxmail.com（请将#换成@）。
 
 ### 在这里发现更多
-　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://weibo.com/prczdl "@班班_Dylan")
+　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://weibo.com/7216640993 "@lei2rock")
 　<i class="fa fa-fw fa-twitter"></i>&nbsp;&nbsp;[Twitter](https://twitter.com/lei2rock "@lei2rock")
 　<i class="fa fa-fw fa-github"></i>&nbsp;&nbsp;[GitHub](https://github.com/lei2rock "@lei2rock")
 　<i class="fa fa-fw fa-weixin"></i>&nbsp;&nbsp;<a data-fancybox="gallery" href="/cloud/img/wechat_channel.jpg" title="@班班碎碎念">公众号 - 班班碎碎念</a>
