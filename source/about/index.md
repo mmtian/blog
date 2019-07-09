@@ -16,7 +16,7 @@ comments: true
 　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://weibo.com/7216640993 "@lei2rock")
 　<i class="fa fa-fw fa-twitter"></i>&nbsp;&nbsp;[Twitter](https://twitter.com/lei2rock "@lei2rock")
 　<i class="fa fa-fw fa-github"></i>&nbsp;&nbsp;[GitHub](https://github.com/lei2rock "@lei2rock")
-　<i class="fa fa-fw fa-weixin"></i>&nbsp;&nbsp;<a data-fancybox="gallery" href="/cloud/img/wechat_channel.jpg" title="@班班碎碎念">公众号 - 班班碎碎念</a>
+　<i class="fa fa-fw fa-weixin"></i>&nbsp;&nbsp;<a data-fancybox="gallery" href="/cloud/img/wechat_channel.jpg" title="@BanbanRamble">公众号 - 班班碎碎念</a>
 
 ### 著作权声明
 原创文章、照片在注明作者和本站地址情况下，无需事先许可即可非商业性使用；原创文章、照片如果需要商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
