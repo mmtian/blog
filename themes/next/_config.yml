@@ -16,15 +16,15 @@ cache:
 # Define custom file paths. If commented, will be used default custom file paths.
 # For example, you want to put your custom styles file outside theme directory in root `source/_data`, set `styles: source/_data/styles.styl`
 custom_file_path:
-  head: source/_data/head.swig
-  header: source/_data/header.swig
-  sidebar: source/_data/sidebar.swig
+  #head: source/_data/head.swig
+  #header: source/_data/header.swig
+  #sidebar: source/_data/sidebar.swig
   postMeta: source/_data/post-meta.swig
-  postBodyEnd: source/_data/post-body-end.swig
+  #postBodyEnd: source/_data/post-body-end.swig
   footer: source/_data/footer.swig
-  bodyEnd: source/_data/body-end.swig
-  variable: source/_data/variables.styl
-  mixin: source/_data/mixins.styl
+  #bodyEnd: source/_data/body-end.swig
+  #variable: source/_data/variables.styl
+  #mixin: source/_data/mixins.styl
   style: source/_data/styles.styl
 
 
