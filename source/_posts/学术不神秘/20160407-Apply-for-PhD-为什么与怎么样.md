@@ -6,7 +6,6 @@ tags:
   - PhD
 date: '2016-04-07 22:54:42'
 top: false
-toc: false
 mathjax: false
 comments: true
 reward: true
