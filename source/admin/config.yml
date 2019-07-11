@@ -29,7 +29,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
@@ -46,7 +45,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
@@ -63,7 +61,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
@@ -80,7 +77,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "评论", name: "comments", widget: "boolean", default: true}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
@@ -110,17 +106,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "/source/about/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
-          - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
-          - {label: "正文", name: "body", widget: "markdown"}
-      - name: "404"
-        label: "404 页面"
-        file: "/source/404/index.md"
-        fields:
-          - {label: "标题", name: "title", widget: "string"}
-          - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
-          - {label: "评论", name: "comments", widget: "boolean", default: true}
-          - {label: "永久链接", name: "permalink", widget: "string", default: "/404"}
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "readme_hexo"
         label: "README (hexo-source)"
