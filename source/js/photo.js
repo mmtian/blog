@@ -22,7 +22,7 @@ photo ={
             li += '<div class="card" style="width:225px">' +
                     '<div class="ImageInCard" style="height:'+ 225 * imageY / imageX + 'px">' +
                       '<a data-fancybox="gallery" href="/cloud/photos/' + imgNameWithPattern + '?raw=true" data-caption="' + imgName + '">' +
-                        '<img src="/cloud/photos/' + imgNameWithPattern + '?raw=true"/>' +
+                        '<img srcset="/cloud/photos/' + imgNameWithPattern + '?raw=true" src="/cloud/photos/' + imgNameWithPattern + '?raw=true"/>' +
                       '</a>' +
                     '</div>' +
                     // '<div class="TextInCard">' + imgName + '</div>' +  //图片下显示文件名

@@ -955,7 +955,7 @@ fastclick: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # Dependencies: https://github.com/theme-next/theme-next-lazyload
-lazyload: false
+lazyload: true
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
@@ -1038,7 +1038,7 @@ vendors:
   # Example:
   # lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
   # lazyload: //cdnjs.cloudflare.com/ajax/libs/lozad.js/1.9.0/lozad.min.js
-  lazyload:
+  lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
 
   # Internal version: 1.2.1
   # See: http://velocityjs.org
