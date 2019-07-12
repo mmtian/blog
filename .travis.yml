@@ -11,16 +11,13 @@ cache:
 
 before_install:
   - export TZ='Asia/Shanghai'
-  - sudo apt-get update
 
 install:
-  - npm update -g npm
   - npm install -g hexo-cli
   - npm install
 
 script:
   - hexo clean
-# - hexo douban
   - hexo generate
 
 after_success:
