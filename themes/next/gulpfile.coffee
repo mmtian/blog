@@ -11,9 +11,8 @@ gulp.task 'lint', ->
     './source/js/utils.js',
     './source/js/motion.js',
     './source/js/algolia-search.js',
-    './source/js/next-boot.js',
+    './source/js/bootstrap.js',
     './source/js/post-details.js',
-    './source/js/schemes/muse.js',
     './source/js/schemes/pisces.js'
   ]).pipe jshint()
     .pipe jshint.reporter(stylish)
@@ -51,4 +50,4 @@ gulp.task 'validate:languages', (cb) ->
     cb(errors)
 
 
-gulp.task 'default', gulp.parallel('lint', 'validate:config', 'validate:languages')
+gulp.task 'default', ['lint', 'validate:config', 'validate:languages']

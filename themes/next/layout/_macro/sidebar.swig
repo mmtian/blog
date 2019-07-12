@@ -187,7 +187,7 @@
       {% endif %}
 
       {% if theme.back2top.enable and theme.back2top.sidebar %}
-        <div class="back-to-top motion-element">
+        <div class="back-to-top">
           <i class="fa fa-arrow-up"></i>
           {% if theme.back2top.scrollpercent %}
             <span id="scrollpercent"><span>0</span>%</span>
