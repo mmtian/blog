@@ -3,3 +3,4 @@
   <script src="/js/photo.js"></script>
 {% endif %}
 <script src="/js/comment-locate.js"></script>
+<script src="//cdn.jsdelivr.net/gh/lei2rock/live2d-widget@latest/autoload.js"></script>
