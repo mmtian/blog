@@ -25,7 +25,7 @@ photo ={
                         '<img srcset="/cloud/photos/' + imgNameWithPattern + '?raw=true" src="/cloud/photos/' + imgNameWithPattern + '?raw=true"/>' +
                       '</a>' +
                     '</div>' +
-                    // '<div class="TextInCard">' + imgName + '</div>' +  //图片下显示文件名
+                    // '<div class="TextInCard">' + imgName + '</div>' +
                   '</div>'
         }
         $(".ImageGrid").append(li);
