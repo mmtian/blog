@@ -98,7 +98,6 @@ collections: # A list of collections the CMS should be able to edit
         file: "/source/books/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
-          - {label: "侧边目录", name: "toc", widget: "boolean", default: false}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "about"
