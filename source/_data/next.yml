@@ -263,9 +263,7 @@ sidebar:
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: true
-  # Click any blank part of the page to close sidebar (only for Muse | Mist).
-  dimmer: false
+  onmobile: false
 
 back2top:
   enable: true
@@ -340,8 +338,8 @@ codeblock:
     enable: true
     # Show text copy result
     show_result: true
-    # Style: only `flat` is currently available, leave it blank if you prefer default theme
-    style:
+    # Available values: default | flat | mac
+    style: mac
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
@@ -634,7 +632,7 @@ valine:
   avatar: wavatar # Gravatar style
   guest_info: nick,mail # Custom comment header
   pageSize: 10 # Pagination size
-  language: zh-cn # Language, available values: en, zh-cn
+  language: # Language, available values: en, zh-cn
   visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
 
@@ -781,7 +779,7 @@ leancloud_visitors:
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
   security: false
-  betterPerformance: true
+  betterPerformance: false
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
