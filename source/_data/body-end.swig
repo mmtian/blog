@@ -1,11 +1,11 @@
 {# Photos page #}
 {% if page.type ==='picture' %}
   <script src="//cdn.jsdelivr.net/npm/minigrid@3.1.1/dist/minigrid.min.js"></script>
-  <script src="/js/photo.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/lei2rock/blog@latest/js/photo.js"></script>
 {% endif %}
 
 {# Locate comments #}
-<script src="/js/comment-locate.js"></script>
+<script src="//cdn.jsdelivr.net/gh/lei2rock/blog@latest/js/comment-locate.js"></script>
 
 {# live2d-widget #}
 <script src="//cdn.jsdelivr.net/gh/lei2rock/live2d-widget@latest/autoload.js"></script>
