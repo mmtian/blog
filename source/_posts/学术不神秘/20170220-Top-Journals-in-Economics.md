@@ -4,7 +4,7 @@ categories:
   - 学术不神秘
 tags:
   - econ
-  - list
+  - 清单
 date: '2017-02-20 09:30:00'
 top: false
 mathjax: false
