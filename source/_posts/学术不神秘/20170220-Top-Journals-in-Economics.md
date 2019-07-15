@@ -14,7 +14,7 @@ abbrlink: 40e31eef
 ---
 The rank of this list is based on [SUFE journal list](http://econ.shufe.edu.cn/se/kxyj_con/87/1489).
 
-### Top Tier
+## Top Tier
 
 - [American Economic Review](http://econpapers.repec.org/article/aeaaecrev/)
 - [Econometrica](http://econpapers.repec.org/article/wlyemetrp/)
@@ -22,7 +22,7 @@ The rank of this list is based on [SUFE journal list](http://econ.shufe.edu.cn/s
 - [Quarterly Journal of Economics](http://econpapers.repec.org/article/oupqjecon/)
 - [Review of Economic Studies](http://econpapers.repec.org/article/ouprestud/)<!-- more -->
 
-### First Tier
+## First Tier
 
 - [Economic Journal](http://econpapers.repec.org/article/ecjeconjl/)
 - [Games and Economic Behavior](http://econpapers.repec.org/article/eeegamebe/)
@@ -38,7 +38,7 @@ The rank of this list is based on [SUFE journal list](http://econ.shufe.edu.cn/s
 - [Review of Economics and Statistics](http://econpapers.repec.org/article/tprrestat/)
 - Theoretical Economics
 
-### Second Tier
+## Second Tier
  
 - AEJ：Applied Economics
 - AEJ：Economic Policy
