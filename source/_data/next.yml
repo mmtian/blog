@@ -1145,6 +1145,6 @@ vendors:
   disqusjs_css:
 
 # Assets
-css: css
-js: js
-images: images
+css: //cdn.jsdelivr.net/gh/lei2rock/blog@2.3/css
+js: //cdn.jsdelivr.net/gh/lei2rock/blog@2.3/js
+images: //cdn.jsdelivr.net/gh/lei2rock/blog@2.3/images
