@@ -31,7 +31,7 @@ comments: true
 * 博客部署：Netlify（Travis CI 同步至 GitHub）
 * 评论系统：Valine + LeanCloud
 * 访问统计：LeanCloud + 谷歌分析
-* 静态资源存储：腾讯云对象存储 COS
+* 静态资源：腾讯云对象存储 + jsDelivr CDN
 
 你可以阅读文章《[建站简史](/posts/82ef8c2e/)》，了解更多关于本站的更新。如果您想要反馈本站中存在的任何问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。
 
