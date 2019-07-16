@@ -1116,7 +1116,7 @@ vendors:
   # Example:
   # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.4/Valine.min.js
-  valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
+  valine: //cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
   # gitalk & js-md5
   # See: https://github.com/gitalk/gitalk, https://github.com/emn178/js-md5
@@ -1145,6 +1145,6 @@ vendors:
   disqusjs_css:
 
 # Assets
-css: //cdn.jsdelivr.net/gh/lei2rock/blog@1/css
-js: //cdn.jsdelivr.net/gh/lei2rock/blog@1/js
-images: //cdn.jsdelivr.net/gh/lei2rock/blog@1/images
+css: //cdn.jsdelivr.net/gh/lei2rock/blog/css
+js: //cdn.jsdelivr.net/gh/lei2rock/blog/js
+images: //cdn.jsdelivr.net/gh/lei2rock/blog/images
