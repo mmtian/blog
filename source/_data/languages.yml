@@ -84,8 +84,8 @@ zh-CN:
     colon: "："
   reward:
     donate: <i class="fa fa-qrcode fa-2x" style="line-height:35px;"></i>
-    wechatpay: 微信赞赏
-    alipay: 微信公众号
+    wechatpay: 微信支付
+    alipay: 支付宝
     bitcoin: 比特币
   accessibility:
     nav_toggle: 切换导航栏

@@ -20,17 +20,17 @@ comments: true
 
 ### 著作权声明
 
-原创文章、照片在注明作者和本站地址情况下，无需事先许可即可非商业性使用；原创文章、照片如果需要商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
+本站所有作品（包括但不限于文章、照片）除特别声明外，均采用 [<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA 许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)，非商业性转载、演绎请注明作者与出处。如需商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
 
 ### 关于本站
 
 本站采用了 Hexo 静态博客框架，主题为 NexT Gemini。除此之外，域名、评论和统计等功能使用了以下服务：
 
-* 域名：NameSilo
-* DNS 解析：Cloudflare
+* 域名注册：NameSilo
+* 域名解析：Cloudflare
 * 博客部署：Netlify（Travis CI 同步至 GitHub）
 * 评论系统：Valine + LeanCloud
-* 访问统计：LeanCloud + 谷歌分析
+* 访客统计：LeanCloud + 谷歌分析
 * 静态资源：腾讯云对象存储 + jsDelivr CDN
 
 你可以阅读文章《[建站简史](/posts/82ef8c2e/)》，了解更多关于本站的更新。如果您想要反馈本站中存在的任何问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。

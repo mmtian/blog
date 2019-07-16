@@ -86,9 +86,9 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: false
+  sidebar: true
   post: false
-  language:
+  language: deed.zh
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
@@ -337,11 +337,11 @@ reward_settings:
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
   enable: true
   animation: false
-  comment: <p style="font-size:14px; color:#34495e; margin:0 0 5px 0;">赞赏一下吧～ 还可以关注公众号订阅最新内容</p>
+  comment: <p style="color:#34495e; margin:0 0 5px 0;">🍭打赏支持一根棒棒糖！</p>
 
 reward:
   wechatpay: /cloud/img/wx_reward.jpg
-  alipay: /cloud/img/wx_channel.jpg
+  alipay: /cloud/img/alipay.jpg
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
@@ -1145,6 +1145,6 @@ vendors:
   disqusjs_css:
 
 # Assets
-css: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0/css
-js: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0/js
-images: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0/images
+css: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0.1/css
+js: //cdn.jsdelivr.net/gh/lei2rock/blog/js
+images: //cdn.jsdelivr.net/gh/lei2rock/blog/images
