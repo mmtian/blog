@@ -11,6 +11,7 @@ comments: true
 含义是告诉人们「不要说已把握事物本质，也不要说已穷尽真理；没有什么变革不需要继承，没有什么传统不可以创新」。
 
 ### 在这里发现更多
+
 　<i class="fa fa-fw fa-envelope"></i>&nbsp;&nbsp;idonglei (at) foxmail.com
 　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://weibo.com/7216640993 "@lei2rock")
 　<i class="fa fa-fw fa-twitter"></i>&nbsp;&nbsp;[Twitter](https://twitter.com/lei2rock "@lei2rock")
@@ -18,10 +19,13 @@ comments: true
 　<i class="fa fa-fw fa-weixin"></i>&nbsp;&nbsp;<a data-fancybox="gallery" href="/cloud/img/wechat_channel.jpg" title="@BanbanRamble">公众号 - 班班碎碎念</a>
 
 ### 著作权声明
+
 原创文章、照片在注明作者和本站地址情况下，无需事先许可即可非商业性使用；原创文章、照片如果需要商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
-　
+
 ### 关于本站
+
 本站采用了 Hexo 静态博客框架，主题为 NexT Gemini。除此之外，域名、评论和统计等功能使用了以下服务：
+
 * 域名：NameSilo
 * DNS 解析：Cloudflare
 * 博客部署：Netlify（Travis CI 同步至 GitHub）
@@ -32,5 +36,6 @@ comments: true
 你可以阅读文章《[建站简史](/posts/82ef8c2e/)》，了解更多关于本站的更新。如果您想要反馈本站中存在的任何问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。
 
 ### 小伙伴们
+
 一些好看好玩的博客，也欢迎分享你的最爱～
-[Shuxin Yang](http://shuxinyang.com)　　[槽](https://miyehn.me/blog)　　[Divergent](http://dannii.cc)　　[阿十九](https://blog.ashijiu.com)
+[Shuxin Yang](http://shuxinyang.com)　　[槽](https://miyehn.me/blog)　　[阿十九](https://blog.ashijiu.com)
