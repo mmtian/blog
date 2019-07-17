@@ -191,7 +191,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink.
 # Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
-social:
+social_custom:
   微博: https://weibo.com/7216640993 || weibo
   Twitter: https://twitter.com/lei2rock || twitter
   GitHub: https://github.com/lei2rock || github
@@ -337,7 +337,7 @@ reward_settings:
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
   enable: true
   animation: false
-  comment: <p style="color:#34495e; margin:0 0 5px 0;">🍭打赏支持一根棒棒糖！</p>
+  comment: <p style="color:#34495e; margin:0 0 5px 0;">🍭支持一根棒棒糖！</p>
 
 reward:
   wechatpay: /cloud/img/wx_reward.jpg

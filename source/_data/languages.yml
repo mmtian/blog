@@ -4,6 +4,7 @@ zh-CN:
     category: 专栏
     tag: 标签
     schedule: 日程表
+
   menu:
     home: 碎碎念念
     archives: 文章归档
@@ -16,9 +17,11 @@ zh-CN:
     commonweal: 公益 404
     photos: 光影留痕
     books: 书破万卷
+
   sidebar:
     overview: 站点概览
     toc: 文章目录
+
   post:
     posted: 发表于
     edited: 更新于
@@ -42,14 +45,17 @@ zh-CN:
       link: 本文链接
       license_title: 版权声明
       license_content: "本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"
+
   page:
     totally: 共有
     tags: 标签
+
   footer:
     powered: "由 %s 强力驱动"
     theme: 主题
     total_views: 总访问量
     total_visitors: 总访客量
+
   counter:
     tag_cloud:
       zero: 暂无标签
@@ -63,13 +69,16 @@ zh-CN:
       zero: 暂无文章。
       one: 目前共计 1 篇文章。
       other: "目前共计 %d 篇文章。"
+
   state:
     posts: 文章
     pages: 页面
     tags: 标签
     categories: 专栏
+
   search:
     placeholder: 搜索...
+
   cheers:
     um: 嗯..
     ok: 还行
@@ -77,20 +86,25 @@ zh-CN:
     good: 很好
     great: 非常好
     excellent: 太棒了
+
   keep_on: 继续努力。
+
   symbol:
     comma: "，"
     period: "。"
     colon: "："
+
   reward:
     donate: <i class="fa fa-qrcode fa-2x" style="line-height:35px;"></i>
     wechatpay: 微信支付
     alipay: 支付宝
     bitcoin: 比特币
+
   accessibility:
     nav_toggle: 切换导航栏
     prev_page: 上一页
     next_page: 下一页
+
   symbols_count_time:
     count: 本文字数
     count_total: 站点总字数
