@@ -24,16 +24,13 @@ comments: true
 
 ### 关于本站
 
-本站采用了 Hexo 静态博客框架，主题为 NexT Gemini。除此之外，域名、评论和统计等功能使用了以下服务：
+本站采用了 Hexo 静态博客框架，主题为 NexT Gemini，托管在 Netlify。除此之外，评论、统计等功能使用了以下服务：
 
-* 域名注册：NameSilo
-* 域名解析：Cloudflare
-* 博客部署：Netlify（Travis CI 同步至 GitHub）
 * 评论系统：Valine + LeanCloud
 * 访客统计：LeanCloud + 谷歌分析
 * 静态资源：腾讯云对象存储 + jsDelivr CDN
 
-你可以阅读文章《[建站简史](/posts/82ef8c2e/)》，了解更多关于本站的更新。如果您想要反馈本站中存在的任何问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。
+你可以阅读文章《[建站简史](/posts/82ef8c2e/)》，了解更多本站的历史。如果您想要反馈本站中存在的问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。
 
 ### 小伙伴们
 
