@@ -1,6 +1,6 @@
 <div class="feed-link motion-element">
   <a href="/cloud/img/wx_channel.jpg" data-fancybox="gallery" data-caption="微信扫码关注：班班碎碎念" rel="alternate">
-    <i class="fa fa-rss"></i> 关注公众号
+    <i class="fa fa-wechat"></i> 关注
   </a>
 </div>
 
