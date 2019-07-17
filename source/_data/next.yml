@@ -152,7 +152,7 @@ baidu_push: false
 menu:
   home: / || home
   photos: /photos || camera-retro
-  books: /books || book
+  leisure: /leisure || book
   about: /about/ || rocket
   #tags: /tags/ || tags
   #categories: /categories/ || th
