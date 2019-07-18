@@ -1,17 +1,18 @@
 ---
-title: 书影流光
+title: 好物分享
 comments: true
 ---
 > 希望我们，都成为拥有好奇心与想象力的人，都是不断发现更大世界的有趣人类。
 
 {% tabs leisure %}
-<!-- tab 阅读@book -->
 
-### 1.1 在读
+<!-- tab 阅读@book -->
+## 1. 书目
+### 1.1 在读书目
 
 * [**明朝那些事儿**](https://book.douban.com/subject/6878988/). 当年明月. 2011
 
-### 1.2 已读
+### 1.2 已读书目
 
 * [**台湾这些年所知道的祖国**](https://book.douban.com/subject/25864000/). 廖信忠. 2014
 作者的系列作品了，不过说实话没有最初的《我们台湾这些年》好看。
@@ -40,10 +41,10 @@ comments: true
 * [**看见**](https://book.douban.com/subject/20427187/). 柴静. 2013
 * [**围城**](https://book.douban.com/subject/1008145/). 钱钟书. 1991
 * [**他改变了中国**](https://book.douban.com/subject/1258378/). [美] 罗伯特 · 劳伦斯 · 库恩. 2005
-
 <!-- endtab -->
 
 <!-- tab 纪录片@video-camera -->
+## 2. 纪录纪实作品
 一些自己看过的优秀纪录片，以 CCTV 与 BBC 拍摄的纪录片为主，类型大多属于人文历史或者社会纪实。自然地理方面的纪录片很少，大概这个题材的拍摄风格大多不太喜欢。
 
 ### 2.1 国产纪录片
@@ -92,8 +93,9 @@ comments: true
 让 5 名中国老师在英国南部汉普郡的一所中学实施 4 周中国式教学试验的故事。说实话，这样短期的社会实验没什么大的研究意义吧，一些评论把所谓的对比看得太严重了反而感觉不会，纯当作真人秀综艺节目看倒是很有趣的。
 <!-- endtab -->
 
-<!-- tab 电视剧@film -->
-一些自己看过的电视剧，以中国大陆电视剧与美剧为主，类型上有古装剧、谍战剧、职业剧、悬疑动作片等。
+<!-- tab 影视剧@film -->
+## 3. 电影电视剧
+一些自己看过的电影电视剧，以国产与美剧为主，类型上有古装剧、谍战剧、职业剧、悬疑动作片等。
 
 ### 3.1 国产剧
 * **伪装者** [谍战]
@@ -116,6 +118,51 @@ comments: true
 
 ### 3.3 英剧
 * **神探夏洛克 Sherlock** [犯罪]
+<!-- endtab -->
+
+<!-- tab 站点导航@globe -->
+## 4. 站点收藏夹
+自己经常访问的一些站点收藏，涵盖技术工具向、学术向、新闻资讯向等各方向站点。
+
+### 4.1 新闻资讯
+
+* [财新网](http://www.caixin.com/?HOLDZH) <font color=#bbb>专业财经资讯</font>
+* [观察者网](https://www.guancha.cn) <font color=#bbb>综合时政要闻</font>
+* [路透中文网 Reuters](https://cn.reuters.com) <font color=#bbb>综合政经要闻</font>
+* [联合早报](https://www.zaobao.com) <font color=#bbb>新加坡华文媒体</font>
+* [南华早报 South China Morning Post](https://www.scmp.com) <font color=#bbb>香港英文媒体</font>
+* [Inoreader](https://www.inoreader.com/all_articles) <font color=#bbb>RSS 订阅</font>
+* [什么值得买](https://post.smzdm.com) <font color=#bbb>购物资讯</font>
+
+### 4.2 社交通讯
+
+* [微博](https://m.weibo.cn)
+* [知乎](http://www.zhihu.com)
+* [Twitter](https://twitter.com)
+* [QQ 邮箱](https://mail.qq.com)
+* [Gmail](https://mail.google.com)
+* [Office 365](https://www.office.com/?omkt=zh-CN)
+
+### 4.3 视频娱乐
+
+* [bilibili](https://www.bilibili.com)
+* [YouTube](https://www.youtube.com)
+* [优酷](https://www.youku.com)
+* [爱奇艺](https://www.iqiyi.com)
+
+### 4.4 学术
+
+* [Websites for Economic Study & Research](/posts/ceda0f99/)
+* [Top Journals in Economics](/posts/40e31eef/)
+
+### 4.5 技术工具
+
+* [GitHub](https://github.com)
+* [Netlify](https://app.netlify.com)
+* [腾讯云](https://cloud.tencent.com/login)
+* [LeanCloud 国际版](https://console.leancloud.app)
+* [WolframAlpha](http://www.wolframalpha.com)
+* [SM 公共图床](https://sm.ms)
 <!-- endtab -->
 
 {% endtabs %}

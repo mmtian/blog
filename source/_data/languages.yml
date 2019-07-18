@@ -6,17 +6,17 @@ zh-CN:
     schedule: 日程表
 
   menu:
-    home: 碎碎念念
+    home: 文章首页
     archives: 文章归档
-    categories: 专栏
-    tags: 标签
-    about: 关于班班
-    search: 文章搜索
+    categories: 几个专栏
+    tags: 各种标签
+    about: 探索更多
+    search: 全站搜索
     schedule: 日程表
     sitemap: 站点地图
     commonweal: 公益 404
     photos: 光影留痕
-    leisure: 书影流光
+    share: 好物分享
 
   sidebar:
     overview: 站点概览
