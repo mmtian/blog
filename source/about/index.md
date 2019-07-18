@@ -20,7 +20,7 @@ comments: true
 
 ### 著作权声明
 
-本站所有作品（包括但不限于文章、照片）除特别声明外，均采用 [<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA 许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)，非商业性转载、演绎请注明作者与出处。如需商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
+本站所有作品（包括但不限于文章、照片）除特别声明外，均采用 [<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA 许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)，非商业性演绎、转载请注明作者与出处。如需商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
 
 ### 关于本站
 
