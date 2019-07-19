@@ -161,7 +161,7 @@ comments: true
 * [Netlify](https://app.netlify.com)
 * [腾讯云](https://cloud.tencent.com/login)
 * [LeanCloud 国际版](https://console.leancloud.app)
-* [WolframAlpha](http://www.wolframalpha.com)
+* [WolframAlpha](https://www.wolframalpha.com)
 * [SM 公共图床](https://sm.ms)
 <!-- endtab -->
 
