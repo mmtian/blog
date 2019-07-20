@@ -101,6 +101,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "页面设置"
     files:
+      - name: "share"
+        label: "好物分享"
+        file: "/source/share/index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "评论", name: "comments", widget: "boolean", default: true}
+          - {label: "正文", name: "body", widget: "markdown"}
       - name: "photos"
         label: "光影留痕"
         file: "/source/photos/index.md"
@@ -109,15 +116,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "类型", name: "type", widget: "string", default: "picture"}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "正文", name: "body", widget: "markdown"}
-      - name: "books"
-        label: "书破万卷"
-        file: "/source/books/index.md"
-        fields:
-          - {label: "标题", name: "title", widget: "string"}
-          - {label: "评论", name: "comments", widget: "boolean", default: true}
-          - {label: "正文", name: "body", widget: "markdown"}
       - name: "about"
-        label: "关于班班"
+        label: "探索更多"
         file: "/source/about/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
@@ -125,6 +125,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "readme"
         label: "README"
-        file: "/source/README.md"
+        file: "/README.md"
         fields:
           - {label: "正文", name: "body", widget: "markdown"}
