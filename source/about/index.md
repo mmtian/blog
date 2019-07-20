@@ -31,8 +31,3 @@ comments: true
 * 静态资源：腾讯云对象存储 + jsDelivr CDN
 
 你可以阅读文章《[建站简史](/posts/82ef8c2e/)》，了解更多本站的历史。如果您想要反馈本站中存在的问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。
-
-### 小伙伴们
-
-一些好看好玩的博客，也欢迎分享你的最爱～
-[Shuxin Yang](http://shuxinyang.com)　　[槽](https://miyehn.me/blog)　　[阿十九](https://blog.ashijiu.com)

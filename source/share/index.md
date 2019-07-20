@@ -43,7 +43,7 @@ comments: true
 * [**他改变了中国**](https://book.douban.com/subject/1258378/). [美] 罗伯特 · 劳伦斯 · 库恩. 2005
 <!-- endtab -->
 
-<!-- tab 纪录片@video-camera -->
+<!-- tab 纪实@video-camera -->
 ## 2. 纪录纪实作品
 一些自己看过的优秀纪录片，以 CCTV 与 BBC 拍摄的纪录片为主，类型大多属于人文历史或者社会纪实。自然地理方面的纪录片很少，大概这个题材的拍摄风格大多不太喜欢。
 
@@ -93,7 +93,7 @@ comments: true
 让 5 名中国老师在英国南部汉普郡的一所中学实施 4 周中国式教学试验的故事。说实话，这样短期的社会实验没什么大的研究意义吧，一些评论把所谓的对比看得太严重了反而感觉不会，纯当作真人秀综艺节目看倒是很有趣的。
 <!-- endtab -->
 
-<!-- tab 影视剧@film -->
+<!-- tab 影视@film -->
 ## 3. 电影电视剧
 一些自己看过的电影电视剧，以国产与美剧为主，类型上有古装剧、谍战剧、职业剧、悬疑动作片等。
 
@@ -120,7 +120,7 @@ comments: true
 * **神探夏洛克 Sherlock** [犯罪]
 <!-- endtab -->
 
-<!-- tab 站点导航@globe -->
+<!-- tab 导航@globe -->
 ## 4. 站点收藏夹
 自己经常访问的一些站点收藏，涵盖技术工具向、学术向、新闻资讯向等各方向站点。
 
@@ -163,6 +163,15 @@ comments: true
 * [LeanCloud 国际版](https://console.leancloud.app)
 * [WolframAlpha](https://www.wolframalpha.com)
 * [SM 公共图床](https://sm.ms)
+<!-- endtab -->
+
+<!-- tab 友链@link -->
+## 5. 小伙伴们
+一些好看好玩的博客站点，也欢迎在评论区分享你的最爱～
+
+* [Shuxin Yang](http://shuxinyang.com) <font color=#bbb>Have the courage to follow your heart and intuition.</font>
+* [槽](https://miyehn.me/blog) <font color=#bbb>喜欢画画，也喜欢胡思乱想并对着（未来的）自己唠嗑的人。</font>
+* [阿十九](https://blog.ashijiu.com) <font color=#bbb>When I grow old.</font>
 <!-- endtab -->
 
 {% endtabs %}

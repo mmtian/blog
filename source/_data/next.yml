@@ -152,8 +152,8 @@ baidu_push: false
 menu:
   home: / || home
   categories: /categories/ || th
-  share: /share || share-alt
   photos: /photos || camera-retro
+  share: /share || share-alt
   about: /about/ || location-arrow
   #tags: /tags/ || tags
   #archives: /archives/ || archive
