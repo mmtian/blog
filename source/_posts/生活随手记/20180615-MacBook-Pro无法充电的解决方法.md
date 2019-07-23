@@ -1,9 +1,10 @@
 ---
 title: MacBook Pro 显示「不在充电」的解决方法
 categories:
-  - 技术三两事
+  - 生活随手记
 tags:
   - MacBook
+  - 技术
 date: '2018-06-15 21:24:43'
 top: false
 mathjax: false

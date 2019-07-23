@@ -60,7 +60,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category:
 category_map:
   书影拾光机: bookmovie
   学术不神秘: academic
