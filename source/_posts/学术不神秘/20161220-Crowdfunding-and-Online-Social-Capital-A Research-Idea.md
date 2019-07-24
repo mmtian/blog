@@ -7,9 +7,10 @@ tags:
   - econ
 date: '2016-12-20 01:35:21'
 top: false
+sticky: 0
 mathjax: false
-comments: true
 reward: true
+comments: true
 abbrlink: 3b22d99a
 ---
 ## 1. Background

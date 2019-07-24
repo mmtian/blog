@@ -7,9 +7,10 @@ tags:
   - 技术
 date: '2018-06-15 21:24:43'
 top: false
+sticky: 0
 mathjax: false
-comments: true
 reward: true
+comments: true
 abbrlink: 2b488870
 ---
 刚才发现我的 MacBook Pro 电池显示「Battery is not charging」，而且电量也从 100% 下降到了 92%，不过依然是显示「Power Source: Power Adapter」。因为用 HDMI 线外接了一台 Dell 的显示器，所以一开始是怀疑用电量大于充电量导致的。不过无论是否连接外接显示器，都是一样的不在充电，即使插拔了电源插头也是如此。

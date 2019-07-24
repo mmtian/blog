@@ -7,9 +7,10 @@ tags:
   - 法律
 date: '2016-12-16 18:31:22'
 top: false
+sticky: 0
 mathjax: false
-comments: true
 reward: true
+comments: true
 abbrlink: fdbd388d
 ---
 {% note success %} This is the essay of CUHK PhD level course *Industrial Organization* {% endnote %}

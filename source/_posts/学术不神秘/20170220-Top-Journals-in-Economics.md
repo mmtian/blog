@@ -7,9 +7,10 @@ tags:
   - 清单
 date: '2017-02-20 09:30:00'
 top: false
+sticky: 0
 mathjax: false
-comments: true
 reward: true
+comments: true
 abbrlink: 40e31eef
 ---
 The rank of this list is based on [SUFE journal list](http://econ.shufe.edu.cn/se/kxyj_con/87/1489).
