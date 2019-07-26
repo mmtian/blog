@@ -3,7 +3,7 @@ photo ={
     offset: 100,
     init: function () {
         var that = this;
-        $.getJSON("/photos/photoslist.json", function (data) {
+        $.getJSON("/more/photos/photoslist.json", function (data) {
             that.render(that.page, data);
             //that.scroll(data);
         });
@@ -19,8 +19,8 @@ photo ={
            imageSize = data[i].split(' ')[0];
            imageX = imageSize.split('.')[0];
            imageY = imageSize.split('.')[1];
-            li += '<div class="card" style="width:225px">' +
-                    '<div class="ImageInCard" style="height:'+ 225 * imageY / imageX + 'px">' +
+            li += '<div class="card" style="width:213px">' +
+                    '<div class="ImageInCard" style="height:'+ 213 * imageY / imageX + 'px">' +
                       '<a data-fancybox="gallery" href="/cloud/photos/' + imgNameWithPattern + '?raw=true" data-caption="' + imgName + '">' +
                         '<img srcset="/cloud/photos/' + imgNameWithPattern + '?raw=true" src="/cloud/photos/' + imgNameWithPattern + '?raw=true"/>' +
                       '</a>' +

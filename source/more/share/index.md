@@ -93,38 +93,11 @@ comments: true
 让 5 名中国老师在英国南部汉普郡的一所中学实施 4 周中国式教学试验的故事。说实话，这样短期的社会实验没什么大的研究意义吧，一些评论把所谓的对比看得太严重了反而感觉不会，纯当作真人秀综艺节目看倒是很有趣的。
 <!-- endtab -->
 
-<!-- tab 影视@film -->
-## 3. 电影电视剧
-一些自己看过的电影电视剧，以国产与美剧为主，类型上有古装剧、谍战剧、职业剧、悬疑动作片等。
-
-### 3.1 国产剧
-* **伪装者** <font color=#bbb>谍战</font>
-* **人民的名义** <font color=#bbb>反腐</font>
-* **后宫·甄嬛传** <font color=#bbb>古装</font>
-* **延禧攻略** <font color=#bbb>古装</font>
-* **北平无战事** <font color=#bbb>谍战</font>
-* **大宅门** <font color=#bbb>古装</font>
-* **余罪** <font color=#bbb>犯罪</font>
-* **家有儿女** <font color=#bbb>喜剧</font>
-* **武林外传** <font color=#bbb>喜剧</font>
-* **炊事班的故事** <font color=#bbb>喜剧</font>
-
-### 3.2 美剧
-* **生活大爆炸 The Big Bang Theory** <font color=#bbb>喜剧</font>
-* **实习医生格蕾 Grey's Anatomy** <font color=#bbb>职业剧</font>
-* **纸牌屋 House of Cards** <font color=#bbb>职业剧</font>
-* **国务卿女士 Madam Secretary** <font color=#bbb>职业剧</font>
-* **新闻编辑室 The Newsroom** <font color=#bbb>职业剧</font>
-
-### 3.3 英剧
-* **神探夏洛克 Sherlock** <font color=#bbb>犯罪</font>
-<!-- endtab -->
-
-<!-- tab 导航@globe -->
-## 4. 站点收藏夹
+<!-- tab 导航@bookmark -->
+## 3. 站点收藏夹
 自己经常访问的一些站点收藏，涵盖技术工具向、学术向、新闻资讯向等各方向站点。
 
-### 4.1 新闻资讯
+### 3.1 新闻资讯
 
 * [财新网](http://www.caixin.com/?HOLDZH) <font color=#bbb>专业财经资讯</font>
 * [观察者网](https://www.guancha.cn) <font color=#bbb>综合时政要闻</font>
@@ -134,7 +107,7 @@ comments: true
 * [Inoreader](https://www.inoreader.com/all_articles) <font color=#bbb>RSS 订阅</font>
 * [什么值得买](https://post.smzdm.com) <font color=#bbb>购物资讯</font>
 
-### 4.2 社交通讯
+### 3.2 社交通讯
 
 * [微博](https://m.weibo.cn)
 * [知乎](http://www.zhihu.com)
@@ -143,19 +116,19 @@ comments: true
 * [Gmail](https://mail.google.com)
 * [Office 365](https://www.office.com/?omkt=zh-CN)
 
-### 4.3 视频娱乐
+### 3.3 视频娱乐
 
 * [bilibili](https://www.bilibili.com)
 * [YouTube](https://www.youtube.com)
 * [优酷](https://www.youku.com)
 * [爱奇艺](https://www.iqiyi.com)
 
-### 4.4 学术
+### 3.4 学术
 
 * [Websites for Economic Study & Research](/posts/ceda0f99/)
 * [Top Journals in Economics](/posts/40e31eef/)
 
-### 4.5 技术工具
+### 3.5 技术工具
 
 * [GitHub](https://github.com)
 * [Netlify](https://app.netlify.com)
@@ -163,15 +136,6 @@ comments: true
 * [LeanCloud 国际版](https://console.leancloud.app)
 * [WolframAlpha](https://www.wolframalpha.com)
 * [SM 公共图床](https://sm.ms)
-<!-- endtab -->
-
-<!-- tab 友链@link -->
-## 5. 小伙伴们
-一些好看好玩的博客站点，也欢迎在评论区分享你的最爱～
-
-* [Shuxin Yang](http://shuxinyang.com) <font color=#bbb>Have the courage to follow your heart and intuition.</font>
-* [槽](https://miyehn.me/blog) <font color=#bbb>喜欢画画，也喜欢胡思乱想并对着（未来的）自己唠嗑的人。</font>
-* [阿十九](https://blog.ashijiu.com) <font color=#bbb>When I grow old.</font>
 <!-- endtab -->
 
 {% endtabs %}

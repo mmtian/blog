@@ -1,19 +1,20 @@
 ---
-title: 建站简史
-categories:
-  - 生活随手记
-tags:
-  - blog
-  - 历史
-  - 技术
-date: '2018-06-13 08:30:00'
-top: false
-sticky: 0
-mathjax: false
-reward: true
+title: 关于本站
 comments: true
-abbrlink: 82ef8c2e
 ---
+
+> 如果您想要反馈本站中存在的问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。
+
+## 站点概况
+
+本站采用了 Hexo 静态博客框架，主题为 NexT Gemini，托管在 Netlify。除此之外，评论、统计等功能使用了以下服务：
+
+* 评论系统：Valine + LeanCloud
+* 访客统计：LeanCloud + 谷歌分析
+* 静态资源：腾讯云对象存储 + jsDelivr CDN
+
+## 建站简史
+
 很久以前（大概是小学时代），我学会了用 Frontpage 制作网页，但是没有能力把我的网站放到互联网上。自己最早的博客应该要算是新浪博客了，在中学时代就开通了。有模有样地发布了几篇自己写的作文，不过后来感觉编辑很麻烦，加上主题又不好看，所以就放弃了。之后简单地用过 [Lofter](http://www.lofter.com/) ，不过主题只适合放照片不适合展示文字。<!-- more -->
 
 在大学的时候转投了 [Weebly](https://www.weebly.com/) ，当年没被屏蔽，浏览起来也挺顺畅的，就尝试着建立了一个个人主页。后来给本科的科研训练团队做了一个蛮不错的团队形象展示网站。由于科研训练项目的结束以及 GFW 的屏蔽，Weebly 也就最终被抛弃了。

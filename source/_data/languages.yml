@@ -6,17 +6,15 @@ zh-CN:
     schedule: 日程表
 
   menu:
-    home: 文章首页
+    home: 博客首页
     archives: 文章归档
-    categories: 几个专栏
+    categories: 分类专栏
     tags: 各种标签
-    about: 探索更多
-    search: 全站搜索
+    about: 关于
+    search: 站点搜索
     schedule: 日程表
     sitemap: 站点地图
     commonweal: 公益 404
-    photos: 光影留痕
-    share: 好物分享
 
   sidebar:
     overview: 站点概览

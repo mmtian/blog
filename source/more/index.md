@@ -1,7 +1,15 @@
 ---
-title: 探索更多
+title: 这是什么
+date: 2018-12-18
 comments: true
+menu:
+  friends: /more/friends/ || heart
+  bullhorn: /more/bullhorn/ || bullhorn
+  tools: /more/tools/ || briefcase
+  vpn: /more/vpn/ || plane
+  theme: /cake/ || eercast
 ---
+
 我是班班，目前坐标香港，喜欢看一些纪录片和美剧，也喜欢瞎折腾一些数码产品。有时候也会看看书、玩玩游戏，没事胡思乱想碎碎念。本站主要会记录一些我的日常生活、碎碎念、科研随笔与转载文章。
 
 标题的「靡革匪因，靡故匪新」取自母校 [浙江大学校歌](https://www.bilibili.com/video/av15024170) 歌词：
@@ -21,13 +29,3 @@ comments: true
 ### 著作权声明
 
 本站所有作品（包括但不限于文章、照片）除特别声明外，均采用 [<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA 许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)，非商业性演绎、转载请注明作者与出处。如需商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
-
-### 关于本站
-
-本站采用了 Hexo 静态博客框架，主题为 NexT Gemini，托管在 Netlify。除此之外，评论、统计等功能使用了以下服务：
-
-* 评论系统：Valine + LeanCloud
-* 访客统计：LeanCloud + 谷歌分析
-* 静态资源：腾讯云对象存储 + jsDelivr CDN
-
-你可以阅读文章《[建站简史](/posts/82ef8c2e/)》，了解更多本站的历史。如果您想要反馈本站中存在的问题，敬请在评论区留言，或发送邮件联系我，亦可在 GitHub 上提交 [Issue](https://github.com/lei2rock/blog/issues)。
