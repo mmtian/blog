@@ -42,3 +42,9 @@ ID = "lei2rock-blog"
   to = "https://lei2rock.avosapps.us/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/about"
+  to = "/more"
+  status = 301
+  force = true
