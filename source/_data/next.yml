@@ -365,6 +365,6 @@ vendors:
 
 
 # Assets
-css: css
-js: js
-images: //cdn.jsdelivr.net/gh/lei2rock/blog/images
+css: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0.8/css
+js: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0.8/js
+images: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0.8/images
