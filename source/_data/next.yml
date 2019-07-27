@@ -59,9 +59,7 @@ footer:
 # ---------------------------------------------------------------
 
 disable_baidu_transformation: true
-
 google_site_verification: SJUudYL5q_atXSgew2qwy69FXOnSnNB2rAmwHmcBT9U
-
 baidu_push: true
 
 
@@ -164,6 +162,15 @@ reward_settings:
 reward:
   wechatpay: cloud/img/wx_reward.jpg
   alipay: cloud/img/alipay.jpg
+
+
+# ---------------------------------------------------------------
+# Custom Page Settings
+# See: https://theme-next.org/docs/theme-settings/custom-pages
+# ---------------------------------------------------------------
+
+# Enable "cheers" for archive page.
+cheers: false
 
 
 # ---------------------------------------------------------------
@@ -275,6 +282,7 @@ valine:
 google_analytics:
   tracking_id: UA-141207776-1
   localhost_ignored: true
+
 
 # ---------------------------------------------------------------
 # Search Services
