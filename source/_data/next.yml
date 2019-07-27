@@ -167,15 +167,6 @@ reward:
 
 
 # ---------------------------------------------------------------
-# Custom Page Settings
-# See: https://theme-next.org/docs/theme-settings/custom-pages
-# ---------------------------------------------------------------
-
-# Enable "cheers" for archive page.
-cheers: false
-
-
-# ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
 
@@ -365,6 +356,6 @@ vendors:
 
 
 # Assets
-css: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0.8/css
-js: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0.8/js
-images: //cdn.jsdelivr.net/gh/lei2rock/blog@3.0.8/images
+css: css
+js: js
+images: //cdn.jsdelivr.net/gh/lei2rock/blog/images
