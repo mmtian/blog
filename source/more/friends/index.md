@@ -2,7 +2,6 @@
 title: 小伙伴们
 comments: true
 ---
-
 > 一些好看好玩的博客站点，也欢迎在评论区分享你的最爱～
 
 * [Shuxin Yang](http://shuxinyang.com) <font color=#bbb>Have the courage to follow your heart and intuition.</font>

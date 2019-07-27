@@ -122,6 +122,10 @@ avatar:
   rounded: true
   rotated: false
 
+# Table Of Contents in the Sidebar
+toc:
+  number: false
+
 back2top:
   enable: true
   sidebar: false
