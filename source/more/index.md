@@ -1,13 +1,6 @@
 ---
 title: 这是什么
-date: 2018-12-18
 comments: true
-menu:
-  friends: /more/friends/ || heart
-  bullhorn: /more/bullhorn/ || bullhorn
-  tools: /more/tools/ || briefcase
-  vpn: /more/vpn/ || plane
-  theme: /cake/ || eercast
 ---
 
 我是班班，目前坐标香港，喜欢看一些纪录片和美剧，也喜欢瞎折腾一些数码产品。有时候也会看看书、玩玩游戏，没事胡思乱想碎碎念。本站主要会记录一些我的日常生活、碎碎念、科研随笔与转载文章。

@@ -48,3 +48,15 @@ ID = "lei2rock-blog"
   to = "/more"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/photos"
+  to = "/more/photos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/82ef8c2e"
+  to = "/more/site"
+  status = 301
+  force = true
