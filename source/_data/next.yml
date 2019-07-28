@@ -118,7 +118,7 @@ links:
 
 # Sidebar Avatar
 avatar:
-  url: /cloud/img/blog-avatar.jpg
+  url: cloud/img/blog-avatar.jpg
   rounded: true
   rotated: false
 
@@ -368,6 +368,6 @@ vendors:
 
 
 # Assets
-css: css
-js: js
+css: //cdn.jsdelivr.net/gh/lei2rock/blog/css
+js: //cdn.jsdelivr.net/gh/lei2rock/blog/js
 images: //cdn.jsdelivr.net/gh/lei2rock/blog/images
