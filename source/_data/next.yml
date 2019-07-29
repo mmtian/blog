@@ -72,7 +72,7 @@ menu:
   archives: archives/ || archive
   categories: categories/ || th
   tags: tags/ || tags
-  探索更多: 
+  more:
     default: more/ || location-arrow
     光影留痕: photos/ || camera-retro
     好物分享: share/ || share-alt
@@ -361,10 +361,10 @@ vendors:
 
   lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
 
+  valine: //cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+
   velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js
   velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js
-
-  valine: //cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
 
 # Assets
