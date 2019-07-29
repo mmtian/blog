@@ -44,19 +44,13 @@ ID = "lei2rock-blog"
   force = true
 
 [[redirects]]
-  from = "/about"
-  to = "/more"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/photos"
-  to = "/more/photos"
+  to = "/about/photos"
   status = 301
   force = true
 
 [[redirects]]
   from = "/posts/82ef8c2e"
-  to = "/more/site"
+  to = "/about/site"
   status = 301
   force = true

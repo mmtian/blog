@@ -89,16 +89,16 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "页面设置"
     files:
-      - name: "more"
-        label: "探索更多 - 这是什么"
-        file: "/source/more/index.md"
+      - name: "about"
+        label: "关于更多"
+        file: "/source/about/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "photos"
         label: "光影留痕"
-        file: "/source/more/photos/index.md"
+        file: "/source/about/photos/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
           - {label: "类型", name: "type", widget: "string", default: "picture"}
@@ -106,21 +106,21 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "share"
         label: "好物分享"
-        file: "/source/more/share/index.md"
+        file: "/source/about/share/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "friends"
         label: "小伙伴们"
-        file: "/source/more/friends/index.md"
+        file: "/source/about/friends/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
           - {label: "正文", name: "body", widget: "markdown"}
       - name: "site"
-        label: "关于本站"
-        file: "/source/more/site/index.md"
+        label: "本站概览"
+        file: "/source/about/site/index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
           - {label: "评论", name: "comments", widget: "boolean", default: true}
