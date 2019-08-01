@@ -10,7 +10,7 @@ comments: true
 
 * 评论系统：Valine + LeanCloud
 * 访客统计：LeanCloud + 谷歌分析
-* 静态资源：腾讯云对象存储 + jsDelivr CDN
+* 静态资源：腾讯云对象存储
 
 ## 建站简史
 
