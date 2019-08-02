@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "置顶标志", name: "sticky", widget: "number", default: 0, valueType: "int", min: 0, max: 1, step: 1}
+      - {label: "置顶标志", name: "sticky", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "评论", name: "comments", widget: "boolean", default: true}
@@ -46,7 +46,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "置顶标志", name: "sticky", widget: "number", default: 0, valueType: "int", min: 0, max: 1, step: 1}
+      - {label: "置顶标志", name: "sticky", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "评论", name: "comments", widget: "boolean", default: true}
@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "置顶标志", name: "sticky", widget: "number", default: 0, valueType: "int", min: 0, max: 1, step: 1}
+      - {label: "置顶标志", name: "sticky", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "评论", name: "comments", widget: "boolean", default: true}
@@ -80,7 +80,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "标签", name: "tags", widget: "list", default: [""]}
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "置顶", name: "top", widget: "boolean", default: false}
-      - {label: "置顶标志", name: "sticky", widget: "number", default: 0, valueType: "int", min: 0, max: 1, step: 1}
+      - {label: "置顶标志", name: "sticky", widget: "boolean", default: false}
       - {label: "LaTex", name: "mathjax", widget: "boolean", default: false}
       - {label: "赞赏", name: "reward", widget: "boolean", default: true}
       - {label: "评论", name: "comments", widget: "boolean", default: true}

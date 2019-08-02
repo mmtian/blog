@@ -7,7 +7,7 @@ tags:
   - econ
 date: '2016-12-20 01:35:21'
 top: false
-sticky: 0
+sticky: false
 mathjax: false
 reward: true
 comments: true

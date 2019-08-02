@@ -7,7 +7,7 @@ tags:
   - 技术
 date: '2018-06-15 21:24:43'
 top: false
-sticky: 0
+sticky: false
 mathjax: false
 reward: true
 comments: true

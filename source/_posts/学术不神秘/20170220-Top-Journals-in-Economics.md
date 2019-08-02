@@ -7,7 +7,7 @@ tags:
   - 清单
 date: '2017-02-20 09:30:00'
 top: false
-sticky: 0
+sticky: false
 mathjax: false
 reward: true
 comments: true

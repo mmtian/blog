@@ -7,7 +7,7 @@ tags:
   - 法律
 date: '2016-12-16 18:31:22'
 top: false
-sticky: 0
+sticky: false
 mathjax: false
 reward: true
 comments: true
