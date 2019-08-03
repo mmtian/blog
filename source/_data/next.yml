@@ -267,7 +267,7 @@ valine:
   guest_info: nick,mail
   pageSize: 10
   language: # en, zh-cn
-  visitor: true
+  visitor: false
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
 
 
@@ -281,6 +281,16 @@ google_analytics:
   tracking_id: UA-141207776-1
   localhost_ignored: true
 
+# Show number of visitors to each article.
+leancloud_visitors:
+  enable: true
+  app_id: ydaoV9samWgzerLX7OHEbRgk-MdYXbMMI
+  app_key: 5jRfX3rExENmJqhdzkRqPndP
+  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+  # If you don't care about security in leancloud counter and just want to use it directly
+  # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
+  security: false
+  betterPerformance: false
 
 # ---------------------------------------------------------------
 # Search Services
