@@ -244,8 +244,10 @@ font:
 
 math:
   enable: true
+pjax: true
 fancybox: true
 lazyload: true
+pangu: true
 
 
 # ---------------------------------------------------------------
@@ -347,10 +349,14 @@ vendors:
 
   fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
+  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+
   fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
   fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
 
   lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
+
+  pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
 
   valine: //cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
