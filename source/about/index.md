@@ -10,14 +10,16 @@ comments: true
 {% endcenterquote %}
 含义是告诉人们「不要说已把握事物本质，也不要说已穷尽真理；没有什么变革不需要继承，没有什么传统不可以创新」。
 
-### 在这里发现更多
-
-　<i class="fa fa-fw fa-envelope"></i>&nbsp;&nbsp;idonglei (at) foxmail.com
-　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://weibo.com/7216640993 "@lei2rock")
-　<i class="fa fa-fw fa-twitter"></i>&nbsp;&nbsp;[Twitter](https://twitter.com/lei2rock "@lei2rock")
-　<i class="fa fa-fw fa-github"></i>&nbsp;&nbsp;[GitHub](https://github.com/lei2rock "@lei2rock")
-　<i class="fa fa-fw fa-weixin"></i>&nbsp;&nbsp;<a href="/cloud/img/wx_channel.jpg" data-fancybox="gallery" data-caption="微信扫码关注：班班碎碎念" rel="alternate" title="@BanbanRamble">公众号 - 班班碎碎念</a>
-
 ### 著作权声明
 
 本站所有作品（包括但不限于文章、照片）除特别声明外，均采用 [<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA 许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)，非商业性演绎、转载请注明作者与出处。如需商业性使用，请先通过上述联系方式与我取得联络，获得书面许可。
+
+### 在这里发现更多
+
+　<i class="fa fa-fw fa-weibo"></i>&nbsp;&nbsp;[微博](https://weibo.com/7216640993 "@lei2rock")
+　<i class="fa fa-fw fa-twitter"></i>&nbsp;&nbsp;[Twitter](https://twitter.com/lei2rock "@lei2rock")
+　<i class="fa fa-fw fa-github"></i>&nbsp;&nbsp;[GitHub](https://github.com/lei2rock "@lei2rock")
+　<i class="fa fa-fw fa-envelope"></i>&nbsp;&nbsp;idonglei (at) foxmail.com
+　<i class="fa fa-fw fa-weixin"></i>&nbsp;&nbsp;微信公众号
+
+{% img /cloud/img/wx_channel.jpg 150 微信扫码：班班碎碎念 %}
