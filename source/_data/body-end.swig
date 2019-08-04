@@ -3,4 +3,3 @@
   <script src="/js/photo.js"></script>
 {% endif %}
 <script src="/js/comment-locate.js"></script>
-<script src="//cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
