@@ -69,6 +69,8 @@ category_map:
   碎碎念不停: ramble
 tag_map:
 
+# Hide articles in specified categories
+hide_categories:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

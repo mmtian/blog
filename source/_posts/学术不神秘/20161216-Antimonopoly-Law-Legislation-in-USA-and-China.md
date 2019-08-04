@@ -6,8 +6,7 @@ tags:
   - 反垄断
   - 法律
 date: '2016-12-16 18:31:22'
-top: false
-sticky: false
+sticky: 0
 mathjax: false
 reward: true
 comments: true

@@ -6,8 +6,7 @@ tags:
   - MacBook
   - 技术
 date: '2018-06-15 21:24:43'
-top: false
-sticky: false
+sticky: 0
 mathjax: false
 reward: true
 comments: true
