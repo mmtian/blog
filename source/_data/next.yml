@@ -130,10 +130,6 @@ back2top:
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: false
 
-# Read more button
-# If true, the read more button would be displayed in excerpt section.
-read_more_btn: false
-
 # Post meta display settings
 post_meta:
   item_text: true
