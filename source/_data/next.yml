@@ -327,7 +327,6 @@ note:
 
 # Tabs tag
 tabs:
-  enable: true
   transition:
     tabs: false
     labels: true
