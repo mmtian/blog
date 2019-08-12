@@ -238,6 +238,8 @@ font:
 
 math:
   enable: true
+  mathjax:
+    enable: true
 #pjax: true
 fancybox: true
 lazyload: true
@@ -351,6 +353,8 @@ vendors:
   jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
 
   fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+
+  mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 #  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
 
