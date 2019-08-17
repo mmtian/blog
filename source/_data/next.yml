@@ -116,11 +116,6 @@ avatar:
 toc:
   number: false
 
-back2top:
-  enable: true
-  sidebar: false
-  scrollpercent: true
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -182,6 +177,11 @@ codeblock:
     show_result: true
     # Available values: default | flat | mac
     style: mac
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
 
 
 # ---------------------------------------------------------------
