@@ -240,15 +240,15 @@ math:
   enable: true
   mathjax:
     enable: true
-#pjax: true
+pjax: true
 fancybox: true
 lazyload: true
 pangu: true
 
 
 # ---------------------------------------------------------------
-# Comments and Widgets
-# See: https://theme-next.org/docs/third-party-services/comments-and-widgets
+# Comments Settings
+# See: https://theme-next.org/docs/third-party-services/comments
 # ---------------------------------------------------------------
 
 # Valine
@@ -356,7 +356,7 @@ vendors:
 
   mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
-#  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
 
   fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
   fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
