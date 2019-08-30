@@ -350,7 +350,7 @@ motion:
 
 vendors:
 
-  jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
+  anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
 
   fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
@@ -358,6 +358,7 @@ vendors:
 
   pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
 
+  jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
   fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
   fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
 
